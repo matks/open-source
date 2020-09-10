@@ -1,7 +1,7 @@
 ---
-title: "PrestaShop Code of Conduct v1.0"
+title: "Code of Conduct of PrestaShop v1.0"
 icon: "ti-book"
-description: "PrestaShop Code of Conduct v1.0"
+description: "PrestaShop Code of Conduct, English version"
 type : "docs"
 ---
 

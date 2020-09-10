@@ -1,7 +1,7 @@
 ---
-title: "PrestaShop Slack channels"
+title: "Slack channels"
 icon: "ti-direction-alt"
-description: "Description of available channels"
+description: "List of available channels and how to create a new one"
 type : "docs"
 ---
 
@@ -9,7 +9,7 @@ type : "docs"
 
 A Slack dedicated to the PrestaShop open source project is now available. Its purpose is to foster the development of the software and of its ecosystem. The current priority is to configure channels for development and product management purpose. Once done, it will be open more progressively to other needs, like community management, business, etc.
 
-[More information about prestashop.slack.com](https://github.com/PrestaShop/open-source/blob/master/slack/readme.md)
+[More information about prestashop.slack.com]({{< ref "/slack/main.md" >}})
 
 ## Request a new channel
 

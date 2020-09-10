@@ -1,7 +1,7 @@
 ---
 title: "PrestaShop open source project's Slack"
 icon: "ti-comments"
-description: "About the PrestaShop open source project's Slack"
+description: "About the PrestaShop Slack"
 type : "docs"
 ---
 
@@ -28,9 +28,9 @@ If you are an active contributor, or want to become one, then this is definitely
 
 More information:
 
-- [List of current active channels](https://github.com/PrestaShop/open-source/blob/master/slack/channels.md#active-channels)
-- [Request a new channel](https://github.com/PrestaShop/open-source/blob/master/slack/channels.md#request-a-new-channel)
-- [List of active applications](https://github.com/PrestaShop/open-source/blob/master/slack/apps-and-integrationsapps-and-integrations.md)
+- [List of current active channels]({{< ref "/slack/channels.md" >}}#active-channels)
+- [Request a new channel]({{< ref "/slack/channels.md" >}}#request-a-new-channel)
+- [List of active applications]({{< ref "/slack/apps-and-integrations.md" >}})
 
 ## Foster great discussions between many people
 

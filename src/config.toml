@@ -3,7 +3,7 @@ baseURL = "https://prestashop.org/"
 # theme
 theme = "dot"
 # site title
-title = "PrestaShop Open Source Project"
+title = "PrestaShop Open Source Portal"
 # disable language
 disableLanguages = []
 # unsafe html
@@ -25,7 +25,7 @@ white_color = "#ffffff"
 light_color = "#f8f9fa"
 
 # font family
-font_family = "montserrat" # Choose font family from : https://fonts.google.com/
+font_family = "montserrat"
 
 
 ############################## social links ##############################
@@ -35,7 +35,7 @@ link = "https://twitter.com/prestashop"
   
 [[params.social]]
 icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
-link = "https://github.com/prestashop/prestashop"
+link = "https://github.com/prestashop"
   
 ################################ Wording ######################
 [Languages.en]

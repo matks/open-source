@@ -1,7 +1,7 @@
 ---
-title: "Charte Code de Conduite PrestaShop v1.0"
+title: "Code de Conduite PrestaShop v1.0"
 icon: "ti-book"
-description: "Charte Code de Conduite PrestaShop v1.0"
+description: "Charte Code de Conduite PrestaShop, version Française"
 type : "docs"
 ---
 
