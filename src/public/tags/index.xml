@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on PrestaShop Open Source Portal</title>
-    <link>https://prestashop.org/tags/</link>
+    <link>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/tags/</link>
     <description>Recent content in Tags on PrestaShop Open Source Portal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright 2007-2020 PrestaShop. All rights reserved.</copyright>
     
-	<atom:link href="https://prestashop.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

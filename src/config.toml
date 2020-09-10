@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://prestashop.org/"
+baseURL = "https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/"
 # theme
 theme = "dot"
 # site title

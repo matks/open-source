@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code-of-conducts on PrestaShop Open Source Portal</title>
-    <link>https://prestashop.org/code-of-conduct/</link>
+    <link>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/code-of-conduct/</link>
     <description>Recent content in Code-of-conducts on PrestaShop Open Source Portal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright 2007-2020 PrestaShop. All rights reserved.</copyright>
     
-	<atom:link href="https://prestashop.org/code-of-conduct/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/code-of-conduct/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code de Conduite PrestaShop v1.0</title>
-      <link>https://prestashop.org/code-of-conduct/code-of-conduct-fr/</link>
+      <link>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/code-of-conduct/code-of-conduct-fr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prestashop.org/code-of-conduct/code-of-conduct-fr/</guid>
+      <guid>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/code-of-conduct/code-of-conduct-fr/</guid>
       <description>Charte Code de Conduite PrestaShop v1.0 Version française.
 Notre engagement Dans l&amp;rsquo;intérêt de favoriser un environnement ouvert et accueillant, nous nous engageons, en tant que responsables et en tant que personnes contribuant à ce projet, à faire de la participation une expérience exempte de harcèlement pour tout le monde, quel que soit le niveau d&amp;rsquo;expérience, le sexe, l&amp;rsquo;identité ou l&amp;rsquo;expression de genre, l&amp;rsquo;orientation sexuelle, le handicap, l&amp;rsquo;apparence personnelle, la taille physique, l&amp;rsquo;origine ethnique, l&amp;rsquo;âge, la religion ou la nationalité.</description>
     </item>
     
     <item>
       <title>Code of Conduct of PrestaShop v1.0</title>
-      <link>https://prestashop.org/code-of-conduct/code-of-conduct-en/</link>
+      <link>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/code-of-conduct/code-of-conduct-en/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prestashop.org/code-of-conduct/code-of-conduct-en/</guid>
+      <guid>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/code-of-conduct/code-of-conduct-en/</guid>
       <description>PrestaShop Code of Conduct v1.0 Our Pledge In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 Our Standards Examples of behavior that contributes to creating a positive environment include:</description>
     </item>

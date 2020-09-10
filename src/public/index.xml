@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PrestaShop Open Source Portal</title>
-    <link>https://prestashop.org/</link>
+    <link>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/</link>
     <description>Recent content on PrestaShop Open Source Portal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright 2007-2020 PrestaShop. All rights reserved.</copyright>
     
-	<atom:link href="https://prestashop.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code de Conduite PrestaShop v1.0</title>
-      <link>https://prestashop.org/code-of-conduct/code-of-conduct-fr/</link>
+      <link>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/code-of-conduct/code-of-conduct-fr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prestashop.org/code-of-conduct/code-of-conduct-fr/</guid>
+      <guid>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/code-of-conduct/code-of-conduct-fr/</guid>
       <description>Charte Code de Conduite PrestaShop v1.0 Version française.
 Notre engagement Dans l&amp;rsquo;intérêt de favoriser un environnement ouvert et accueillant, nous nous engageons, en tant que responsables et en tant que personnes contribuant à ce projet, à faire de la participation une expérience exempte de harcèlement pour tout le monde, quel que soit le niveau d&amp;rsquo;expérience, le sexe, l&amp;rsquo;identité ou l&amp;rsquo;expression de genre, l&amp;rsquo;orientation sexuelle, le handicap, l&amp;rsquo;apparence personnelle, la taille physique, l&amp;rsquo;origine ethnique, l&amp;rsquo;âge, la religion ou la nationalité.</description>
     </item>
     
     <item>
       <title>Code of Conduct of PrestaShop v1.0</title>
-      <link>https://prestashop.org/code-of-conduct/code-of-conduct-en/</link>
+      <link>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/code-of-conduct/code-of-conduct-en/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prestashop.org/code-of-conduct/code-of-conduct-en/</guid>
+      <guid>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/code-of-conduct/code-of-conduct-en/</guid>
       <description>PrestaShop Code of Conduct v1.0 Our Pledge In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 Our Standards Examples of behavior that contributes to creating a positive environment include:</description>
     </item>
     
     <item>
       <title>PrestaShop open source project&#39;s Slack</title>
-      <link>https://prestashop.org/slack/main/</link>
+      <link>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/slack/main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prestashop.org/slack/main/</guid>
+      <guid>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/slack/main/</guid>
       <description>About the PrestaShop open source project&amp;rsquo;s Slack General presentation A chat has always been a good way to communicate around an open source project. In the past, IRC would have been the default choice. But nowadays, in PrestaShop ecosystem, people really enjoy Slack, which is why it has been chosen.
 This communication channel is open to anyone who wants to help and contribute to the PrestaShop open source project. There are many ways to contribute:</description>
     </item>
     
     <item>
       <title>Slack channels</title>
-      <link>https://prestashop.org/slack/channels/</link>
+      <link>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/slack/channels/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prestashop.org/slack/channels/</guid>
+      <guid>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/slack/channels/</guid>
       <description>Slack channels A Slack dedicated to the PrestaShop open source project is now available. Its purpose is to foster the development of the software and of its ecosystem. The current priority is to configure channels for development and product management purpose. Once done, it will be open more progressively to other needs, like community management, business, etc.
 More information about prestashop.slack.com
 Request a new channel Creating a new channel is reserved to the administrators.</description>
@@ -54,10 +54,10 @@ Request a new channel Creating a new channel is reserved to the administrators.<
     
     <item>
       <title>Slack integrations</title>
-      <link>https://prestashop.org/slack/apps-and-integrations/</link>
+      <link>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/slack/apps-and-integrations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://prestashop.org/slack/apps-and-integrations/</guid>
+      <guid>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/slack/apps-and-integrations/</guid>
       <description>List of apps and integrations used Productboard  Description: Productboard is a product management tool, used by the PrestaShop Core&amp;rsquo;s product team to gather feedback, organize and pritoritize features and improvements to build, and to follow their development. These feedback are used grouped together to create &amp;ldquo;features ideas&amp;rdquo; that you can see at http://feedback.prestashop.com/.  The Productboard app connects this Slack to the PrestaShop&amp;rsquo;s Productboard.
 It allows the product managers to transform a Slack message (and its comments) into a feedback &amp;ldquo;note&amp;rdquo; on productboard.</description>
     </item>

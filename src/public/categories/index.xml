@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on PrestaShop Open Source Portal</title>
-    <link>https://prestashop.org/categories/</link>
+    <link>https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/categories/</link>
     <description>Recent content in Categories on PrestaShop Open Source Portal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright 2007-2020 PrestaShop. All rights reserved.</copyright>
     
-	<atom:link href="https://prestashop.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shop.mathieu-ferment.com/test-hugo-prestadotorg/open-source/src/public/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
