@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://prestashop.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://prestashop.org/code-of-conduct/code-of-conduct-fr/</loc>
+  </url>
+  
+  <url>
+    <loc>https://prestashop.org/code-of-conduct/code-of-conduct-en/</loc>
+  </url>
+  
+  <url>
+    <loc>https://prestashop.org/code-of-conduct/</loc>
+  </url>
+  
+  <url>
+    <loc>https://prestashop.org/</loc>
+  </url>
+  
+  <url>
+    <loc>https://prestashop.org/slack/main/</loc>
+  </url>
+  
+  <url>
+    <loc>https://prestashop.org/slack/channels/</loc>
+  </url>
+  
+  <url>
+    <loc>https://prestashop.org/slack/apps-and-integrations/</loc>
+  </url>
+  
+  <url>
+    <loc>https://prestashop.org/slack/</loc>
+  </url>
+  
+  <url>
+    <loc>https://prestashop.org/tags/</loc>
+  </url>
+  
+</urlset>
