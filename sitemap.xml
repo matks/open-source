@@ -3,16 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.prestashop-project.org/maintainers-guide/project-organization/</loc>
-    <lastmod>2022-10-06T12:42:24+02:00</lastmod>
+    <lastmod>2022-11-07T12:57:39+01:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/maintainers-guide/how-to-become-a-maintainer/</loc>
     <lastmod>2022-04-06T10:53:35+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/maintainers-guide/releasing-prestashop/preliminary-tasks/</loc>
-    <lastmod>2022-07-27T19:00:07+02:00</lastmod>
+    <lastmod>2022-11-11T21:54:30+01:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/maintainers-guide/how-to-become-a-committer/</loc>
     <lastmod>2022-06-22T15:36:26+02:00</lastmod>
+  </url><url>
+    <loc>https://www.prestashop-project.org/releases/prestashop80/</loc>
+    <lastmod>2022-10-14T12:35:46+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/maintainers-guide/releasing-prestashop/create-build/</loc>
     <lastmod>2022-01-14T19:46:00-03:00</lastmod>
@@ -24,19 +27,19 @@
     <lastmod>2022-01-19T15:14:49+01:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/maintainers-guide/reviewing-pull-requests/</loc>
-    <lastmod>2022-05-09T10:56:12+02:00</lastmod>
+    <lastmod>2022-10-10T17:41:16+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/maintainers-guide/releasing-prestashop/final-steps/</loc>
     <lastmod>2022-05-18T10:39:12+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/maintainers-guide/releasing-prestashop/</loc>
-    <lastmod>2022-01-14T18:37:28-03:00</lastmod>
+    <lastmod>2022-09-09T12:43:17+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/maintainers-guide/release-a-native-ps-module/</loc>
     <lastmod>2021-10-25T18:00:32+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/</loc>
-    <lastmod>2022-09-14T14:32:18+02:00</lastmod>
+    <lastmod>2022-10-14T12:35:46+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/code-of-conduct/code-de-conduite-fr/</loc>
     <lastmod>2021-06-16T14:36:06-03:00</lastmod>
@@ -55,6 +58,9 @@
     <loc>https://www.prestashop-project.org/code-of-conduct/</loc>
     <lastmod>2021-10-25T17:49:45+02:00</lastmod>
   </url><url>
+    <loc>https://www.prestashop-project.org/legal/</loc>
+    <lastmod>2022-10-05T11:17:35+02:00</lastmod>
+  </url><url>
     <loc>https://www.prestashop-project.org/maintainers-guide/license/</loc>
     <lastmod>2021-10-25T18:00:32+02:00</lastmod>
   </url><url>
@@ -69,6 +75,9 @@
   </url><url>
     <loc>https://www.prestashop-project.org/maintainers-guide/processes/</loc>
     <lastmod>2021-10-25T18:00:32+02:00</lastmod>
+  </url><url>
+    <loc>https://www.prestashop-project.org/releases/</loc>
+    <lastmod>2022-09-20T11:10:24+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/slack/channels/</loc>
     <lastmod>2022-07-15T18:27:57+02:00</lastmod>
