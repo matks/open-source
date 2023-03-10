@@ -3,11 +3,10 @@
 
 <head>
 	<meta charset="utf-8">
-<title>Project organization | PrestaShop Project - Open Source e-Commerce platform</title>
-<meta name="description" content="Project organization Project roles Product Managers Product Managers provide the product vision for the project, ensuring that the software meets the needs of its various users.
-Current product managers:
- Fabien Vallon (@fabienvallon) Mateus Shirlaw (@MatShir) Eshane Rawat (@eshraw)  Project Maintainers Project maintainers provide the technical vision for the whole project, reviewing and merging code contributions, while ensuring that the software is developed according to the product vision.
-Current maintainers:"/>
+<title>Creating merge Pull Requests for all active branches | PrestaShop Project - Open Source e-Commerce platform</title>
+<meta name="description" content="Creating merge Pull Requests for all active branches What it is We need to progress on the next minor/major version and the maintained patch version.
+Merge Pull Request Here is the explanation of how you should create your merge pull request (from the 1.7.8.x to 8.0.x branch in this example):
+ Clone the repository locally You’ll need to checkout/create branches for both your source branch and your target branch, or update them if you already have them locally  git checkout -b 1."/>
 
 
 
@@ -25,28 +24,25 @@ Current maintainers:"/>
 
 
 <!-- Open Graph image and Twitter Card metadata -->
-<meta name="twitter:title" content="Project organization"/>
-<meta name="twitter:description" content="Project organization Project roles Product Managers Product Managers provide the product vision for the project, ensuring that the software meets the needs of its various users.
-Current product managers:
- Fabien Vallon (@fabienvallon) Mateus Shirlaw (@MatShir) Eshane Rawat (@eshraw)  Project Maintainers Project maintainers provide the technical vision for the whole project, reviewing and merging code contributions, while ensuring that the software is developed according to the product vision.
-Current maintainers:"/>
-<meta property="og:title" content="Project organization" />
-<meta property="og:description" content="Project organization Project roles Product Managers Product Managers provide the product vision for the project, ensuring that the software meets the needs of its various users.
-Current product managers:
- Fabien Vallon (@fabienvallon) Mateus Shirlaw (@MatShir) Eshane Rawat (@eshraw)  Project Maintainers Project maintainers provide the technical vision for the whole project, reviewing and merging code contributions, while ensuring that the software is developed according to the product vision.
-Current maintainers:" />
+<meta name="twitter:title" content="Creating merge Pull Requests for all active branches"/>
+<meta name="twitter:description" content="Creating merge Pull Requests for all active branches What it is We need to progress on the next minor/major version and the maintained patch version.
+Merge Pull Request Here is the explanation of how you should create your merge pull request (from the 1.7.8.x to 8.0.x branch in this example):
+ Clone the repository locally You’ll need to checkout/create branches for both your source branch and your target branch, or update them if you already have them locally  git checkout -b 1."/>
+<meta property="og:title" content="Creating merge Pull Requests for all active branches" />
+<meta property="og:description" content="Creating merge Pull Requests for all active branches What it is We need to progress on the next minor/major version and the maintained patch version.
+Merge Pull Request Here is the explanation of how you should create your merge pull request (from the 1.7.8.x to 8.0.x branch in this example):
+ Clone the repository locally You’ll need to checkout/create branches for both your source branch and your target branch, or update them if you already have them locally  git checkout -b 1." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.prestashop-project.org/maintainers-guide/project-organization/" /><meta property="article:section" content="maintainers-guide" />
+<meta property="og:url" content="https://www.prestashop-project.org/maintainers-guide/creating-merge-pull-requests/" /><meta property="article:section" content="maintainers-guide" />
 
-<meta property="article:modified_time" content="2023-02-27T15:34:30+01:00" />
+<meta property="article:modified_time" content="2023-02-27T10:22:06+01:00" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Project organization"/>
-<meta name="twitter:description" content="Project organization Project roles Product Managers Product Managers provide the product vision for the project, ensuring that the software meets the needs of its various users.
-Current product managers:
- Fabien Vallon (@fabienvallon) Mateus Shirlaw (@MatShir) Eshane Rawat (@eshraw)  Project Maintainers Project maintainers provide the technical vision for the whole project, reviewing and merging code contributions, while ensuring that the software is developed according to the product vision.
-Current maintainers:"/>
+<meta name="twitter:title" content="Creating merge Pull Requests for all active branches"/>
+<meta name="twitter:description" content="Creating merge Pull Requests for all active branches What it is We need to progress on the next minor/major version and the maintained patch version.
+Merge Pull Request Here is the explanation of how you should create your merge pull request (from the 1.7.8.x to 8.0.x branch in this example):
+ Clone the repository locally You’ll need to checkout/create branches for both your source branch and your target branch, or update them if you already have them locally  git checkout -b 1."/>
 
 
 
@@ -255,7 +251,7 @@ Current maintainers:"/>
     
       
       
-        <li class="breadcrumb-item active" aria-current="page">Project organization</li>
+        <li class="breadcrumb-item active" aria-current="page">Creating merge Pull Requests for all active branches</li>
       
     
   </ol>
@@ -265,151 +261,53 @@ Current maintainers:"/>
     </div>
     <div class="row mx-xl-2">
       
-<div id="toc" class="col-xl-2 order-xl-1">
-  <div class="wrapper">
-    <div class="toc-title">Table of Contents</div>
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#project-organization">Project organization</a>
-      <ul>
-        <li><a href="#project-roles">Project roles</a>
-          <ul>
-            <li><a href="#product-managers">Product Managers</a></li>
-            <li><a href="#project-maintainers">Project Maintainers</a>
-              <ul>
-                <li><a href="#scoped-maintainers">Scoped Maintainers</a></li>
-              </ul>
-            </li>
-            <li><a href="#committers">Committers</a></li>
-            <li><a href="#ux-designers">UX Designers</a></li>
-            <li><a href="#issue-managers">Issue Managers</a></li>
-            <li><a href="#software-testers">Software Testers</a></li>
-            <li><a href="#software-developers-in-test">Software Developers in Test</a></li>
-            <li><a href="#wording-manager">Wording Manager</a></li>
-            <li><a href="#user-documentation-managers">User Documentation Managers</a></li>
-            <li><a href="#technical-documentation-managers">Technical Documentation Managers</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-  </div>
-</div>
-
 
       <div class="col-xl ml-auto">
-        <div class="content"><h1 id="project-organization">Project organization</h1>
-<h2 id="project-roles">Project roles</h2>
-<h3 id="product-managers">Product Managers</h3>
-<p>Product Managers provide the product vision for the project, ensuring that the software meets the needs of its various users.</p>
-<p>Current product managers:</p>
+        <div class="content"><h1 id="creating-merge-pull-requests-for-all-active-branches">Creating merge Pull Requests for all active branches</h1>
+<h2 id="what-it-is">What it is</h2>
+<p>We need to progress on the next minor/major version and the maintained patch version.</p>
+<h2 id="merge-pull-request">Merge Pull Request</h2>
+<p>Here is the explanation of how you should create your merge pull request (from the <code>1.7.8.x</code> to <code>8.0.x</code> branch in this example):</p>
 <ul>
-<li>Fabien Vallon (<a href="https://github.com/fabienvallon">@fabienvallon</a>)</li>
-<li>Mateus Shirlaw (<a href="https://github.com/MatShir">@MatShir</a>)</li>
-<li>Eshane Rawat (<a href="https://github.com/eshraw">@eshraw</a>)</li>
+<li>Clone the repository locally</li>
+<li>You’ll need to checkout/create branches for both your source branch and your target branch, or update them if you already have them locally
+<ul>
+<li><code>git checkout -b 1.7.8.x origin/1.7.8.x &amp;&amp; git checkout -b 8.0.x origin/8.0.x</code></li>
+<li><code>git checkout 1.7.8.x &amp;&amp; git pull &amp;&amp; git checkout 8.0.x &amp;&amp; git pull</code></li>
 </ul>
-<h3 id="project-maintainers">Project Maintainers</h3>
-<p>Project maintainers provide the technical vision for the whole project, reviewing and merging code contributions, while ensuring that the software is developed according to the product vision.</p>
-<p>Current maintainers:</p>
+</li>
+<li>Once both the required branches are fetched locally and up to date you can create your merge branch (recommended) and merge the source branch in your target branch
 <ul>
-<li>Ibrahima Sow (<a href="https://github.com/sowbiba">@sowbiba</a>)</li>
-<li>Jonathan Lelièvre (<a href="https://github.com/jolelievre">@jolelievre</a>)</li>
-<li>Krystian Podemski (<a href="https://github.com/kpodemski">@kpodemski</a>)</li>
-<li>Mathieu Ferment (<a href="https://github.com/matks">@matks</a>)</li>
-<li>Matthieu Rolland (<a href="https://github.com/matthieu-rolland">@matthieu-rolland</a>)</li>
-<li>Pablo Borowicz (<a href="https://github.com/eternoendless">@eternoendless</a>)</li>
-<li>Pululu Kinanga André (<a href="https://github.com/PululuK">@PululuK</a>)</li>
-<li>Thomas Baccelli (<a href="https://github.com/atomiix">@atomiix</a>)</li>
-<li>Valentin Szczupak (<a href="https://github.com/NeOMakinG">@NeOMakinG</a>)</li>
+<li><code>git checkout 8.0.x &amp;&amp; git checkout -b merge-178-80 &amp;&amp; git merge 1.7.8.x</code></li>
 </ul>
-<h4 id="scoped-maintainers">Scoped Maintainers</h4>
-<p>Scoped Maintainers have the same mission as Project Maintainers, but over a limited scope (e.g. a project, a repository, or a technology).</p>
-<p>If the scope is one or multiple repositories, maintainers rights are granted only on these repositories.
-If the scope is larger (example: being in charge of a folder inside a repository) maintainer rights are granted on the repository and the scoped maintainer is trusted not to abuse.</p>
+</li>
+<li>At this point, you may have some conflicts that you will need to fix before you can commit them. Finally, you’ll have to push your merge branch to your fork repository.
 <ul>
-<li>Daniel Hlavacek (<a href="https://github.com/Hlavtox">@Hlavtox</a>) – <a href="https://github.com/prestashop/classic-theme">Classic</a> and <a href="https://github.com/prestashop/hummingbird">Hummingbird</a> themes</li>
-<li>Boubker Bribri (<a href="https://github.com/boubkerbribri">@boubkerbribri</a>) – UI tests</li>
+<li><code>git push fork merge-178-80 -u</code></li>
 </ul>
-<h3 id="committers">Committers</h3>
-<p>Committers review and merge code contributions, while ensuring that the software is developed according to the product vision.</p>
-<p>Current committers:</p>
-<ul>
-<li>Daniel Hlavacek (<a href="https://github.com/Hlavtox">@Hlavtox</a>)</li>
-<li>Julius Žukauskas (<a href="https://github.com/zuk3975">@zuk3975</a>)</li>
-<li>Mahmoud Parvazi (<a href="https://github.com/mparvazi">@mparvazi</a>)</li>
-<li>Marco Salvatore (<a href="https://github.com/marsaldev">@marsaldev</a>)</li>
-<li>Thomas Roux (<a href="https://github.com/okom3pom">@okom3pom</a>)</li>
-<li>Tomasz Zając (<a href="https://github.com/SharakPL">@SharakPL</a>)</li>
-<li>Fabien Papet (<a href="https://github.com/FabienPapet">@FabienPapet</a>)</li>
-<li>Maxime Flasquin (<a href="https://github.com/mflasquin">@mflasquin</a>)</li>
-<li>Nicolas Lœuillet (<a href="https://github.com/nicosomb">@nicosomb</a>)</li>
-<li>Salim Benouamer (<a href="https://github.com/lartist">@lartist</a>)</li>
-<li>Antonin Clauzier (<a href="https://github.com/0x346e3730">@0x346e3730</a>)</li>
+</li>
+<li>⚠️ About <code>docs/CHANGELOG.txt</code> on <code>8.0.x</code> branch, you don’t have to retrieve the changes from <code>1.7.8.x</code> branch.</li>
+<li>You can now create the Pull Request on GitHub, one important detail in the description table you must <strong>use ME as the category</strong></li>
+<li>Usually, these Merge pull requests are performed frequently to keep them as small as possible, if we respect this frequency the content shouldn’t be too important and we have a few risks that they can create some unexpected side effects. So most of the time we don’t need functional QA on those PRs. But of course, the PR’s CI must be fully green and you should run the automatic campaign test on your merge PR (see the section below).</li>
 </ul>
-<h3 id="ux-designers">UX Designers</h3>
-<p>UX Designers make sure that interfaces follow the best practices in usability and design.</p>
-<p>Current UX designers:</p>
+<h2 id="running-automatic-tests-on-a-pull-request">Running automatic tests on a Pull Request</h2>
+<p>In some cases to help the QA team or to allow the validation of a PR more quickly, you may need to run the automatic test for a specific PR. Lucky for us we have a very convenient tool that allows doing this, so let’s say you need to validate a PR with ID number #12345:</p>
 <ul>
-<li>Tristan Lehot (<a href="https://github.com/TristanLDD">@TristanLDD</a>)</li>
+<li>Go to the tool repository <a href="https://github.com/PrestaShop/ga.tests.ui.pr">https://github.com/PrestaShop/ga.tests.ui.pr</a></li>
+<li>You need to clone this repository on your own organization (for example <a href="https://github.com/jolelievre/ga.tests.ui.pr">https://github.com/jolelievre/ga.tests.ui.pr</a>)</li>
+<li>Make sure you always keep your fork up to date by syncing the branches</li>
+<li>Go to your fork repository and then go to <strong>Actions</strong> and select <strong>Testing PrestaShop pull requests</strong> workflow</li>
+<li>You can now launch a manual workflow by clicking on <strong>Run workflow</strong> where you need to specify a few parameters:
+<ul>
+<li><strong>Pull request Id</strong>: The id of the PR you wish to test (in our example <code>12345</code>)</li>
+<li><strong>Base branch to rebase the PR:</strong> The branch used as a target for your PR</li>
+<li><strong>Rebase or merge the pull request:</strong> For regular contributions PR you can leave the default choice <code>rebase</code> For merge Pull Requests you should select <code>merge</code></li>
+<li><strong>PHP version</strong>: select the one you need or keep the default value</li>
+<li><strong>Node version</strong>: select the one you need or keep the default value</li>
 </ul>
-<h3 id="issue-managers">Issue Managers</h3>
-<p>Issue managers reproduce and qualify new issues to avoid duplicates and, if they are indeed defects in the software, their severity. They also redirect new improvement suggestions to the right Product Manager.</p>
-<p>Current issue managers:</p>
-<ul>
-<li>Aurélien Rita (<a href="https://github.com/AureRita">@AureRita</a>)</li>
-<li>Faten Mhiri (<a href="https://github.com/MhiriFaten">@MhiriFaten</a>)</li>
-<li>Florine Hea (<a href="https://github.com/florine2623">@florine2623</a>)</li>
-<li>Hajer Elleuch (<a href="https://github.com/djoelleuch">@djoelleuch</a>)</li>
-<li>Hana Rebai (<a href="https://github.com/HanaRebaiQA">@HanaRebaiQA</a>)</li>
-<li>Hibatallah Aouadni (<a href="https://github.com/hibatallahAouadni">@hibatallahAouadni</a>)</li>
-<li>Ines Sallemi (<a href="https://github.com/sallemiines">@sallemiines</a>)</li>
-<li>Khouloud Belguith (<a href="https://github.com/khouloudbelguith">@khouloudbelguith</a>)</li>
-<li>Paul-Noël Cholot (<a href="https://github.com/paulnoelcholot">@paulnoelcholot</a>)</li>
-</ul>
-<h3 id="software-testers">Software Testers</h3>
-<p>Software Testers make sure that the quality of the software improves over time, by verifying that code changes behave as expected. To do this, they extensively test Pull Requests, PrestaShop&rsquo;s releases and its built-in modules.</p>
-<p>Current Software Testers:</p>
-<ul>
-<li>Aurélien Rita (<a href="https://github.com/AureRita">@AureRita</a>)</li>
-<li>Faten Mhiri (<a href="https://github.com/MhiriFaten">@MhiriFaten</a>)</li>
-<li>Florine Hea (<a href="https://github.com/florine2623">@florine2623</a>)</li>
-<li>Hana Rebai (<a href="https://github.com/HanaRebaiQA">@HanaRebaiQA</a>)</li>
-<li>Hajer Elleuch (<a href="https://github.com/djoelleuch">@djoelleuch</a>)</li>
-<li>Hibatallah Aouadni (<a href="https://github.com/hibatallahAouadni">@hibatallahAouadni</a>)</li>
-<li>Ines Sallemi (<a href="https://github.com/sallemiines">@sallemiines</a>)</li>
-<li>Khouloud Belguith (<a href="https://github.com/khouloudbelguith">@khouloudbelguith</a>)</li>
-<li>Paul-Noël Cholot (<a href="https://github.com/paulnoelcholot">@paulnoelcholot</a>)</li>
-<li>Robin Fischer (<a href="https://github.com/Robin-Fischer-PS">@Robin-Fischer-PS</a>)</li>
-<li>Sarah Dib (<a href="https://github.com/sarahdib">@sarahdib</a>)</li>
-</ul>
-<h3 id="software-developers-in-test">Software Developers in Test</h3>
-<p>Software Developers in Test provide technical vision, review contribution and write automated tests, which help accelerate the testing process.</p>
-<p>Current Software Developers in Test:</p>
-<ul>
-<li>Boubker Bribri (<a href="https://github.com/boubkerbribri">@boubkerbribri</a>)</li>
-<li>Chedly Farhani (<a href="https://github.com/cfarhani06">@cfarhani06</a>)</li>
-<li>Franck Lefèvre (<a href="https://github.com/Progi1984">@Progi1984</a>)</li>
-<li>Nesrine Abdmouleh (<a href="https://github.com/nesrineabdmouleh">@nesrineabdmouleh</a>)</li>
-<li>Stéphane Decisy (<a href="https://github.com/SD1982">@SD1982</a>)</li>
-</ul>
-<h3 id="wording-manager">Wording Manager</h3>
-<p>Wording managers ensure that wordings are adequate, follow the project&rsquo;s tone of voice, and are categorized properly.</p>
-<p>Current wording managers:</p>
-<ul>
-<li>Léa Delin (<a href="https://github.com/l-delin">@l-delin</a>)</li>
-</ul>
-<h3 id="user-documentation-managers">User Documentation Managers</h3>
-<p>User documentation managers ensure the quality and consistency of the <a href="https://docs.prestashop-project.org/">user documentation</a>.</p>
-<p>Current user documentation managers:</p>
-<ul>
-<li>Léa Delin (<a href="https://github.com/l-delin">@l-delin</a>)</li>
-</ul>
-<h3 id="technical-documentation-managers">Technical Documentation Managers</h3>
-<p>Tech documentation managers ensure the quality and consistency of the <a href="https://devdocs.prestashop-project.org/">developer documentation</a></p>
-<p>Current tech documentation managers:</p>
-<ul>
-<li>Thomas Nares (<a href="https://github.com/thomasnares">@thomasnares</a>)</li>
+</li>
+<li>Now you can let the workflow run, it is strongly advised to copy the URL to your created run and post it as a comment in the related PR because it’s hard to tell runs apart from your list so it will save time for everyone.</li>
+<li>You can now wait for the workflow to run. Be aware that some tests may be failing but you should <strong>always compare them to the nightly run reports</strong> <a href="https://nightly.prestashop.com/">https://nightly.prestashop.com/</a> Because some branches may be in an unstable state during development, it doesn’t necessarily mean that your PR has introduced a bug, the bug may have already present. In case of doubts always ask for the QA team’s opinion.</li>
 </ul>
 </div>
       </div>
