@@ -6,7 +6,7 @@
     <lastmod>2023-04-24T17:02:58+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/project-organization/people-and-roles/</loc>
-    <lastmod>2023-07-06T15:45:21+02:00</lastmod>
+    <lastmod>2023-07-07T16:16:41+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/maintainers-guide/general-guidelines/</loc>
     <lastmod>2023-04-24T17:02:58+02:00</lastmod>
@@ -30,7 +30,7 @@
     <lastmod>2023-05-25T09:50:54+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/final-steps/</loc>
-    <lastmod>2023-05-30T22:08:34+02:00</lastmod>
+    <lastmod>2023-07-07T15:18:18+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/</loc>
     <lastmod>2022-10-14T12:35:46+02:00</lastmod>
@@ -46,6 +46,9 @@
   </url><url>
     <loc>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-05-16-meeting/</loc>
     <lastmod>2023-07-04T09:50:25+02:00</lastmod>
+  </url><url>
+    <loc>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-07-10-meeting/</loc>
+    <lastmod>2023-07-10T16:21:23+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/about/</loc>
     <lastmod>2023-04-24T17:02:58+02:00</lastmod>
@@ -134,7 +137,7 @@
     <lastmod>2022-09-20T11:10:24+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/project-organization/quality-council/rules/</loc>
-    <lastmod>2023-07-04T09:50:25+02:00</lastmod>
+    <lastmod>2023-07-10T16:21:23+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/security/</loc>
     <lastmod>2023-05-29T10:33:45+02:00</lastmod>
@@ -147,6 +150,12 @@
   </url><url>
     <loc>https://www.prestashop-project.org/slack/channels/</loc>
     <lastmod>2023-03-24T14:02:53+01:00</lastmod>
+  </url><url>
+    <loc>https://www.prestashop-project.org/project-organization/quality-council/rules/software-developer-in-test/</loc>
+    <lastmod>2023-07-10T16:57:02+02:00</lastmod>
+  </url><url>
+    <loc>https://www.prestashop-project.org/project-organization/quality-council/rules/software-tester/</loc>
+    <lastmod>2023-07-10T16:21:23+02:00</lastmod>
   </url><url>
     <loc>https://www.prestashop-project.org/support/</loc>
     <lastmod>2023-05-25T11:38:08+02:00</lastmod>
