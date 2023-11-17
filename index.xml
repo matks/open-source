@@ -109,8 +109,8 @@ Make certain you have go for publish! Also, avoid starting this process after 4 
 (i.e. if not for betas and RCs).
  This step requires special rights.
 Ask a maintainer from the PrestaShop Company with administrative rights on the PrestaShop API repository to perform this step.
- Once this step is done, update the Release Tracker GitHub issue by ticking the &amp;ldquo;Available for upgrade&amp;rdquo; box.
-2. Create Docker images for the new version  Checkout the project, install the project and create a new branch Modify the file versions.</description>
+ Here is an example of a PR that introduces a new version https://stash.prestashop.com/projects/PA/repos/xml/pull-requests/138/diff:
+ you will need to add the new XML checksum file that was generated with the zip archive, this XML file should be named after the version released (ex: for 8.</description>
     </item>
     
     <item>
@@ -131,6 +131,16 @@ Notre engagement Dans l&amp;rsquo;intérêt de favoriser un environnement ouvert
       <guid>https://www.prestashop-project.org/modules-themes/readme/</guid>
       <description>List of third party, open source and free of charge modules and themes for the PrestaShop e-commerce solution There are plenty of useful themes and modules available on the web from third party developers for the PrestaShop e-commerce solution. Unfortunately, there is no place currently to list them so people can find them.
 So, let&amp;rsquo;s build a knowledge base. If you want to contribute to this page, please create a pull request for each module or theme you would like to propose, following the example:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/processes/pr-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/processes/pr-management/</guid>
+      <description>Testing Pull Request How to test a PR manually You want to take care of a PR and you don&amp;rsquo;t know how to handle it, or you&amp;rsquo;ve simply forgotten how? No problem, this github page is for you.
+1. Taking information from a PR One of the first things to do when starting a PR is to find out as much as possible about it. To do this, you&amp;rsquo;ll find this table at the start of each PR</description>
     </item>
     
     <item>
@@ -219,14 +229,25 @@ Merge Pull Request Here is the explanation of how you should create your merge p
     </item>
     
     <item>
+      <title>How to Manage a release</title>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/processes/release-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/processes/release-manager/</guid>
+      <description>How to create a Test Plan / Release Plan When a new release is made by the developers, a Test Plan and a Release Plan must be created on the QA side.
+Although these tickets are currently created on an internal company Jira, the purpose of this documentation is to explain what information is needed to prepare the release, and how to obtain it, before carrying out a release.
+1. Know the release The first thing to do is to find out about the release you&amp;rsquo;re going to test.</description>
+    </item>
+    
+    <item>
       <title>How to manage Issues</title>
       <link>https://www.prestashop-project.org/project-organization/quality-council/processes/issue-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.prestashop-project.org/project-organization/quality-council/processes/issue-management/</guid>
       <description>How to manage Issues This document details the processes in place for the position of &amp;ldquo;Issues Manager&amp;rdquo;, a rotating position within the QA community members.
-The Issue Manager job Your job is to qualify issues submitted to the GitHub project. Good issues help us discover bugs and provide ideas to improve PrestaShop and the native modules. These are the three questions you must ask yourself:
- Is the issue valid? The issue must be either a bug report or a feature request.</description>
+The Issue Manager job Your job is to qualify issues submitted to the GitHub project. Good issues help us discover bugs and provide ideas to improve PrestaShop and the native modules. These are the three questions you must ask yourself:
+ Is the issue valid? The issue must be a bug report.</description>
     </item>
     
     <item>
@@ -239,6 +260,17 @@ The Issue Manager job Your job is to qualify issues submitted to the GitHub proj
 This is what we call &amp;ldquo;native PrestaShop modules&amp;rdquo;. The source code of these modules is hosted on GitHub.
 This page explains what is needed to release these modules.
 Requirements Mandatory requirements The module should be valid which means:</description>
+    </item>
+    
+    <item>
+      <title>How to release a new AutoUpgrade version</title>
+      <link>https://www.prestashop-project.org/maintainers-guide/processes/release/autoupgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.prestashop-project.org/maintainers-guide/processes/release/autoupgrade/</guid>
+      <description>Release a new version of AutoUpgrade module The AutoUpgrade module is released following the same process as the native modules.
+However, after the release has been published, a last step is necessary.
+Mark the new version as latest The AutoUpgrade module is able to detect whether a new version is available. If it detects a new version is available it will suggest to user to upgrade itself to the new higher version.</description>
     </item>
     
     <item>
