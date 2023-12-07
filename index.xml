@@ -304,6 +304,32 @@ PrestaShop&amp;rsquo;s Native Modules and the Classic theme are released under t
     </item>
     
     <item>
+      <title>Nightly Board</title>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/tooling/nightly-board/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/tooling/nightly-board/</guid>
+      <description>Nightly Board Goal The nightly board is the dashboard for Software Developers in Test. It is checked every morning in order to stabilize existing tests and escalate issues in the event of regressions detected on all supported branches.
+Schedule Every day at 01:00 AM
+Code Nightly tests are executed every day with this process:
+ Create the nightly build (Github worflow) Execute tests and Report  1.7.8.x 8.0.x 8.1.x develop    The nightly board is based on two repositories : Backend &amp;amp; Frontend.</description>
+    </item>
+    
+    <item>
+      <title>PrestHubot</title>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/tooling/presthubot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/tooling/presthubot/</guid>
+      <description>PrestHubot Goal Presthubot is the QA team&amp;rsquo;s Slack Notifier. It checks several rules and sends a report via Slack.
+Schedule Every week day at 06:45 AM
+Code You can find the workflow on Github.
+How it works We can divide the process in two parts : QA Functional &amp;amp; QA Automation.
+QA Functional PR Stats for QA This returns the number of Pull Requests that are pending:
+ on the various branches under development on modules on specifications  But also the PRs awaiting their author, and those that are blocked.</description>
+    </item>
+    
+    <item>
       <title>Security policy</title>
       <link>https://www.prestashop-project.org/security/security-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -353,6 +379,16 @@ Request a new channel Creating a new channel is reserved to the administrators.<
       
       <guid>https://www.prestashop-project.org/project-organization/quality-council/rules/software-tester/</guid>
       <description>Software Tester Scope How to become a Committer ? Prerequisites  The contributor follows the project&amp;rsquo;s Code Of Conduct The contributor knows Prestashop software The contributor knows how to correctly install a shop and a module The contributor knows the difference between a bug and a feature The contributor knows Git commands and understands how versioning works The contributor has already contributed to the project (via PR/issues/release) The contributor is able to follow the stages of an issue The contributor is aware of testing The contributor is able to describe an issue The contributor has tested PRs (other than his/her own)  Process  Open an issue at the open-source repository to apply Reflection period  Quality Council members can ask questions to contributors The contributor has done peer testing with one or more Quality Council members   Voting period  Rules inherit from the council    How to become a Maintainer ?</description>
+    </item>
+    
+    <item>
+      <title>Test Scenarios</title>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/tooling/test-scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/tooling/test-scenarios/</guid>
+      <description>Test Scenarios Goal The Test Scenarios repository focuses on scenarios written by Software Testers (on a JIRA, not accessible to the public). Several tools have been developed:
+ a tool for generating Markdown pages from XRay scenarios on JIRA a tool for synchronizing scenarios to be automated or in the process of being automated in issues a tool for updating a kanban based on the status of scenarios  Schedule  Every week day at 06:00 AM (for the generation of Markdown pages) Every week day at 07:00 AM (for the synchronization of scenarios in issues)  Code You can find workflows :</description>
     </item>
     
     <item>
