@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maintainer&#39;s guide on PrestaShop Project - Open Source e-Commerce platform</title>
-    <link>https://www.prestashop-project.org/maintainers-guide/</link>
+    <link>https://www.mathieu-ferment.com/maintainers-guide/</link>
     <description>Recent content in Maintainer&#39;s guide on PrestaShop Project - Open Source e-Commerce platform</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://www.prestashop-project.org/maintainers-guide/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.mathieu-ferment.com/maintainers-guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to become a maintainer</title>
-      <link>https://www.prestashop-project.org/maintainers-guide/how-to-become-a-maintainer/</link>
+      <link>https://www.mathieu-ferment.com/maintainers-guide/how-to-become-a-maintainer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.prestashop-project.org/maintainers-guide/how-to-become-a-maintainer/</guid>
+      <guid>https://www.mathieu-ferment.com/maintainers-guide/how-to-become-a-maintainer/</guid>
       <description>How to become a maintainer In the PrestaShop project, maintainers are contributors with merge rights.
 The maintainer status is a position of great power, but it also carries great responsibility. As gatekeepers to the project&amp;rsquo;s code, maintainers are ultimately responsible for every contribution that is included in the project.
 Candidates can apply to become maintainer over the whole project, or just a scope (a project, a repository, or a technology).</description>
@@ -19,10 +19,10 @@ Candidates can apply to become maintainer over the whole project, or just a scop
     
     <item>
       <title>How to become a committer</title>
-      <link>https://www.prestashop-project.org/maintainers-guide/how-to-become-a-committer/</link>
+      <link>https://www.mathieu-ferment.com/maintainers-guide/how-to-become-a-committer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.prestashop-project.org/maintainers-guide/how-to-become-a-committer/</guid>
+      <guid>https://www.mathieu-ferment.com/maintainers-guide/how-to-become-a-committer/</guid>
       <description>How to become a committer In the PrestaShop project, committers are contributors with merge rights.
 Committers participate in reviewing code contributions.
 Prerequisites to become a committer  Active participation in the project  Have at least one accepted, quality Pull Request. Display a record of Pull Request reviews. Real interest in getting involved in code review.   Cultural convergence  Respect the Code of Conduct; behave respectfully and in good faith.</description>
@@ -30,10 +30,10 @@ Prerequisites to become a committer  Active participation in the project  Have a
     
     <item>
       <title>Summary of how GitHub Issues and Pull Requests are processed</title>
-      <link>https://www.prestashop-project.org/maintainers-guide/summary-github-lifecycle/</link>
+      <link>https://www.mathieu-ferment.com/maintainers-guide/summary-github-lifecycle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.prestashop-project.org/maintainers-guide/summary-github-lifecycle/</guid>
+      <guid>https://www.mathieu-ferment.com/maintainers-guide/summary-github-lifecycle/</guid>
       <description>Summary of how GitHub Issues and Pull Requests are processed GitHub is the main tool used by maintainers to manage the PrestaShop project.
 This page quickly describes how Issues and Pull Requests are processed on GitHub.
 Please note that some repositories has specific rules. These rules will be found in a CONTRIBUTION_PROCESS.md file in .github folder.
