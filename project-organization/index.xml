@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project organization on PrestaShop Project - Open Source e-Commerce platform</title>
-    <link>https://www.mathieu-ferment.com/project-organization/</link>
+    <link>https://www.prestashop-project.org/project-organization/</link>
     <description>Recent content in Project organization on PrestaShop Project - Open Source e-Commerce platform</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://www.mathieu-ferment.com/project-organization/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.prestashop-project.org/project-organization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PrestaShop&#39;s release and support cycle</title>
-      <link>https://www.mathieu-ferment.com/project-organization/release-cycle/</link>
+      <link>https://www.prestashop-project.org/project-organization/release-cycle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/release-cycle/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/release-cycle/</guid>
       <description>PrestaShop&amp;rsquo;s release and support cycle The PrestaShop project follows the Semantic Versioning convention and alternates between major and minor releases.
 Major versions Major versions (eg. 8.0.0, 9.0.0) are important milestones. These versions contain new features, bug fixes, and above all, backward-incompatible changes that can impact modules and themes.
  Release cycle: every 12–18 months. Support: bug fixes until the next minor release.  Example: v8.0 receives bug fixes until v8.1 is released.</description>
@@ -19,10 +19,10 @@ Major versions Major versions (eg. 8.0.0, 9.0.0) are important milestones. These
     
     <item>
       <title>People &amp; roles</title>
-      <link>https://www.mathieu-ferment.com/project-organization/people-and-roles/</link>
+      <link>https://www.prestashop-project.org/project-organization/people-and-roles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/people-and-roles/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/people-and-roles/</guid>
       <description>People and roles in the project The project is organized by councils who have authority over the different domains.
 To learn more about the project&amp;rsquo;s organization, read How we work.
 Leadership Council The Leadership Council is in charge of providing structure and a general direction for the project. To that end, it oversees the other Councils and has final authority over them and their decisions, including the right to appoint and remove leads.</description>
@@ -30,10 +30,10 @@ Leadership Council The Leadership Council is in charge of providing structure an
     
     <item>
       <title>How we work</title>
-      <link>https://www.mathieu-ferment.com/project-organization/how-we-work/</link>
+      <link>https://www.prestashop-project.org/project-organization/how-we-work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/how-we-work/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/how-we-work/</guid>
       <description>How we work The project&amp;rsquo;s leadership is organized around project councils: self-organized, lightweight groups whose mission is to facilitate decision-making. Each council has authority over a defined domain.
  Technical Council – decides on technical subjects, including architecture and implementation choices. Product Council – decides on product management subjects, including what features belong in the project, specifications, UI/UX guidelines, and wordings. Quality Council – decides on quality assurance subjects, including quality processes, verification of pull requests, and bug triage.</description>
     </item>

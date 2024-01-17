@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PrestaShop Project - Open Source e-Commerce platform</title>
-    <link>https://www.mathieu-ferment.com/</link>
+    <link>https://www.prestashop-project.org/</link>
     <description>Recent content on PrestaShop Project - Open Source e-Commerce platform</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://www.mathieu-ferment.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.prestashop-project.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PrestaShop&#39;s release and support cycle</title>
-      <link>https://www.mathieu-ferment.com/project-organization/release-cycle/</link>
+      <link>https://www.prestashop-project.org/project-organization/release-cycle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/release-cycle/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/release-cycle/</guid>
       <description>PrestaShop&amp;rsquo;s release and support cycle The PrestaShop project follows the Semantic Versioning convention and alternates between major and minor releases.
 Major versions Major versions (eg. 8.0.0, 9.0.0) are important milestones. These versions contain new features, bug fixes, and above all, backward-incompatible changes that can impact modules and themes.
  Release cycle: every 12–18 months. Support: bug fixes until the next minor release.  Example: v8.0 receives bug fixes until v8.1 is released.</description>
@@ -19,10 +19,10 @@ Major versions Major versions (eg. 8.0.0, 9.0.0) are important milestones. These
     
     <item>
       <title>People &amp; roles</title>
-      <link>https://www.mathieu-ferment.com/project-organization/people-and-roles/</link>
+      <link>https://www.prestashop-project.org/project-organization/people-and-roles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/people-and-roles/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/people-and-roles/</guid>
       <description>People and roles in the project The project is organized by councils who have authority over the different domains.
 To learn more about the project&amp;rsquo;s organization, read How we work.
 Leadership Council The Leadership Council is in charge of providing structure and a general direction for the project. To that end, it oversees the other Councils and has final authority over them and their decisions, including the right to appoint and remove leads.</description>
@@ -30,10 +30,10 @@ Leadership Council The Leadership Council is in charge of providing structure an
     
     <item>
       <title>How to become a maintainer</title>
-      <link>https://www.mathieu-ferment.com/maintainers-guide/how-to-become-a-maintainer/</link>
+      <link>https://www.prestashop-project.org/maintainers-guide/how-to-become-a-maintainer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/maintainers-guide/how-to-become-a-maintainer/</guid>
+      <guid>https://www.prestashop-project.org/maintainers-guide/how-to-become-a-maintainer/</guid>
       <description>How to become a maintainer In the PrestaShop project, maintainers are contributors with merge rights.
 The maintainer status is a position of great power, but it also carries great responsibility. As gatekeepers to the project&amp;rsquo;s code, maintainers are ultimately responsible for every contribution that is included in the project.
 Candidates can apply to become maintainer over the whole project, or just a scope (a project, a repository, or a technology).</description>
@@ -41,23 +41,22 @@ Candidates can apply to become maintainer over the whole project, or just a scop
     
     <item>
       <title>Preliminary tasks</title>
-      <link>https://www.mathieu-ferment.com/maintainers-guide/processes/release/prestashop/preliminary-tasks/</link>
+      <link>https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/preliminary-tasks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/maintainers-guide/processes/release/prestashop/preliminary-tasks/</guid>
+      <guid>https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/preliminary-tasks/</guid>
       <description>Preliminary tasks Before you can start your build, you must make sure that the project is ready to be built.
-1. Create the new version in Addons Marketplace and update native module compatibility This step requires special rights.
+1. Create the new version in Addons Marketplace and update native module compatibility This step requires special rights (doc to create a new version on Addons).
 Ask a maintainer from the PrestaShop Company with administrative rights on the Addons Marketplace to perform this step.
- This only needs to be done once per release.
-(i.e. if done for a beta, it doesn&amp;rsquo;t need to be performed again for the final release).</description>
+ This only needs to be done once per release.</description>
     </item>
     
     <item>
       <title>How to become a committer</title>
-      <link>https://www.mathieu-ferment.com/maintainers-guide/how-to-become-a-committer/</link>
+      <link>https://www.prestashop-project.org/maintainers-guide/how-to-become-a-committer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/maintainers-guide/how-to-become-a-committer/</guid>
+      <guid>https://www.prestashop-project.org/maintainers-guide/how-to-become-a-committer/</guid>
       <description>How to become a committer In the PrestaShop project, committers are contributors with merge rights.
 Committers participate in reviewing code contributions.
 Prerequisites to become a committer  Active participation in the project  Have at least one accepted, quality Pull Request. Display a record of Pull Request reviews. Real interest in getting involved in code review.   Cultural convergence  Respect the Code of Conduct; behave respectfully and in good faith.</description>
@@ -65,10 +64,10 @@ Prerequisites to become a committer  Active participation in the project  Have a
     
     <item>
       <title>Create the build</title>
-      <link>https://www.mathieu-ferment.com/maintainers-guide/processes/release/prestashop/create-build/</link>
+      <link>https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/create-build/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/maintainers-guide/processes/release/prestashop/create-build/</guid>
+      <guid>https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/create-build/</guid>
       <description>Create a build package Once preliminary tasks have been completed, the project is ready to be built.
 1. Communicate Starting this step means that the Development phase of this release is over.
 Before you go further, make sure to tick the &amp;ldquo;Development&amp;rdquo; box in the Release Tracker GitHub issue (there is one per version, see the 1.7.6.6 example).
@@ -77,10 +76,10 @@ Before you go further, make sure to tick the &amp;ldquo;Development&amp;rdquo; b
     
     <item>
       <title>Summary of how GitHub Issues and Pull Requests are processed</title>
-      <link>https://www.mathieu-ferment.com/maintainers-guide/summary-github-lifecycle/</link>
+      <link>https://www.prestashop-project.org/maintainers-guide/summary-github-lifecycle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/maintainers-guide/summary-github-lifecycle/</guid>
+      <guid>https://www.prestashop-project.org/maintainers-guide/summary-github-lifecycle/</guid>
       <description>Summary of how GitHub Issues and Pull Requests are processed GitHub is the main tool used by maintainers to manage the PrestaShop project.
 This page quickly describes how Issues and Pull Requests are processed on GitHub.
 Please note that some repositories has specific rules. These rules will be found in a CONTRIBUTION_PROCESS.md file in .github folder.
@@ -90,10 +89,10 @@ The teams On GitHub, there are mainly three teams working together on the projec
     
     <item>
       <title>Release publicly</title>
-      <link>https://www.mathieu-ferment.com/maintainers-guide/processes/release/prestashop/release-publicly/</link>
+      <link>https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/release-publicly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/maintainers-guide/processes/release/prestashop/release-publicly/</guid>
+      <guid>https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/release-publicly/</guid>
       <description>Release the version publicly Once the QA team has greenlighted your build, you can move forward with the public release.
 Make certain you have go for publish! Also, avoid starting this process after 4 PM or on a Friday. 1. Merge security PRs on GitHub If there are unmerged security PRs:
  Merge them on GitHub and publishing their security advisories. Rebase the build branch that you created on the previous step to remove the merge commits from the security PRs you merged manually before.</description>
@@ -101,10 +100,10 @@ Make certain you have go for publish! Also, avoid starting this process after 4 
     
     <item>
       <title>Final steps</title>
-      <link>https://www.mathieu-ferment.com/maintainers-guide/processes/release/prestashop/final-steps/</link>
+      <link>https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/final-steps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/maintainers-guide/processes/release/prestashop/final-steps/</guid>
+      <guid>https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/final-steps/</guid>
       <description>Final steps 1. Update API stream for 1-click upgrade This should only be done for stable releases.
 (i.e. if not for betas and RCs).
  This step requires special rights.
@@ -115,50 +114,50 @@ Ask a maintainer from the PrestaShop Company with administrative rights on the P
     
     <item>
       <title></title>
-      <link>https://www.mathieu-ferment.com/code-of-conduct/code-de-conduite-fr/</link>
+      <link>https://www.prestashop-project.org/code-of-conduct/code-de-conduite-fr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/code-of-conduct/code-de-conduite-fr/</guid>
+      <guid>https://www.prestashop-project.org/code-of-conduct/code-de-conduite-fr/</guid>
       <description>Charte Code de Conduite PrestaShop v1.0 Version française.
 Notre engagement Dans l&amp;rsquo;intérêt de favoriser un environnement ouvert et accueillant, nous nous engageons, en tant que responsables et en tant que personnes contribuant à ce projet, à faire de la participation une expérience exempte de harcèlement pour tout le monde, quel que soit le niveau d&amp;rsquo;expérience, le sexe, l&amp;rsquo;identité ou l&amp;rsquo;expression de genre, l&amp;rsquo;orientation sexuelle, le handicap, l&amp;rsquo;apparence personnelle, la taille physique, l&amp;rsquo;origine ethnique, l&amp;rsquo;âge, la religion ou la nationalité.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.mathieu-ferment.com/modules-themes/readme/</link>
+      <link>https://www.prestashop-project.org/modules-themes/readme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/modules-themes/readme/</guid>
+      <guid>https://www.prestashop-project.org/modules-themes/readme/</guid>
       <description>List of third party, open source and free of charge modules and themes for the PrestaShop e-commerce solution There are plenty of useful themes and modules available on the web from third party developers for the PrestaShop e-commerce solution. Unfortunately, there is no place currently to list them so people can find them.
 So, let&amp;rsquo;s build a knowledge base. If you want to contribute to this page, please create a pull request for each module or theme you would like to propose, following the example:</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/processes/pr-management/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/processes/pr-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/processes/pr-management/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/processes/pr-management/</guid>
       <description>Testing Pull Request How to test a PR manually You want to take care of a PR and you don&amp;rsquo;t know how to handle it, or you&amp;rsquo;ve simply forgotten how? No problem, this github page is for you.
 1. Taking information from a PR One of the first things to do when starting a PR is to find out as much as possible about it. To do this, you&amp;rsquo;ll find this table at the start of each PR</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://www.mathieu-ferment.com/slack/apps-and-integrationsapps-and-integrations/</link>
+      <link>https://www.prestashop-project.org/slack/apps-and-integrationsapps-and-integrations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/slack/apps-and-integrationsapps-and-integrations/</guid>
+      <guid>https://www.prestashop-project.org/slack/apps-and-integrationsapps-and-integrations/</guid>
       <description>List of apps and integrations used in Slack Productboard  Description: Productboard is a product management tool, used by the PrestaShop Core&amp;rsquo;s product team to gather feedback, organize and prioritize features and improvements to build, and to follow their development. These feedback are grouped together to create &amp;ldquo;features ideas&amp;rdquo; that you can see at http://feedback.prestashop.com/. The Productboard app connects this Slack to the PrestaShop&amp;rsquo;s Productboard.
 It allows the product managers to transform a Slack message (and its comments) into a feedback &amp;ldquo;note&amp;rdquo; on productboard.</description>
     </item>
     
     <item>
       <title>2023-05-16</title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/meetings/2023-05-16-meeting/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-05-16-meeting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/meetings/2023-05-16-meeting/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-05-16-meeting/</guid>
       <description>2023-05-16 Presents  @Robin-Fischer-PS : Member of the Quality Council @boubkerbribri : Member of the Quality Council @AureRita @florine2623 @Progi1984  Report Like Pablo Borowicz said, each council can organize like it wants. So this is the goal of this meeting : define rules for the Quality Council.
 Members of the council There are 3 profiles which are members of the Quality Council:
  Issue Manager Software Developer in Test Software Tester  Each member can be:</description>
@@ -166,19 +165,30 @@ Members of the council There are 3 profiles which are members of the Quality Cou
     
     <item>
       <title>2023-07-10</title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/meetings/2023-07-10-meeting/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-07-10-meeting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/meetings/2023-07-10-meeting/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-07-10-meeting/</guid>
       <description>2023-07-10 Presents  Anis Zouari (@aniszr) Boubker Bribri (@boubkerbribri) : Member of the Quality Council Faten Mhiri (@MhiriFaten) : Member of the Quality Council Florine Hea (@florine2623) : Member of the Quality Council Franck Lefèvre (@Progi1984) Hibatallah Aouadni (@hibatallahAouadni) : Member of the Quality Council Ines Sallemi (@sallemiines) : Member of the Quality Council Nesrine Abdmouleh (@nesrineabdmouleh) : Member of the Quality Council Robin-Fischer-PS (@Robin-Fischer-PS) : Member of the Quality Council Stéphane Decisy (@SD1982)  Absents  Aurélien Rita (@AureRita) : Member of the Quality Council Hajer Elleuch (@djoelleuch) : Member of the Quality Council Hana Rebai (@HanaRebaiQA) : Member of the Quality Council Paul-Noël Cholot (@paulnoelcholot) : Member of the Quality Council  Report Rules about vote @Robin-Fischer-PS has called for changes to the Quality Council&amp;rsquo;s voting rules.</description>
     </item>
     
     <item>
-      <title>Bug Bounty</title>
-      <link>https://www.mathieu-ferment.com/security/bug-bounty/</link>
+      <title>2023-12-22</title>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-12-22-vote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/security/bug-bounty/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-12-22-vote/</guid>
+      <description>2023-12-22 A vote was held for accepting @Progi1984 as maintainer in Quality Council, following his request.
+Maintainers :
+ ✅ Aurélien Rita (@AureRita) ✅ Boubker Bribri (@boubkerbribri) Faten Mhiri (@MhiriFaten) ✅ Florine Hea (@florine2623) Hajer Elleuch (@djoelleuch) Hana Rebai (@HanaRebaiQA) ✅ Hibatallah Aouadni (@hibatallahAouadni) ✅ Ines Sallemi (@sallemiines) ✅ Nesrine Abdmouleh (@nesrineabdmouleh) ✅ Paul-Noël Cholot (@paulnoelcholot) ✅ Robin-Fischer-PS (@Robin-Fischer-PS)   With 8 votes, the request is accepted by the Quality Council : @Progi1984 is now maintainer in Quality Council.</description>
+    </item>
+    
+    <item>
+      <title>Bug Bounty</title>
+      <link>https://www.prestashop-project.org/security/bug-bounty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.prestashop-project.org/security/bug-bounty/</guid>
       <description>Bug bounty A bug bounty for security flaws is hosted on YesWeHack platform.
 The program is currently paused. Please report security issues to security-core@prestashop.com instead. Visit the Bug Bounty page
 This bounty program covers code from the GitHub repository PrestaShop/PrestaShop and all PrestaShop modules defined in the composer.json file.
@@ -187,10 +197,10 @@ Informations about qualifying and non-qualifying vulnerabilities can be read on 
     
     <item>
       <title>Github account security</title>
-      <link>https://www.mathieu-ferment.com/maintainers-guide/general-guidelines/github-account-security/</link>
+      <link>https://www.prestashop-project.org/maintainers-guide/general-guidelines/github-account-security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/maintainers-guide/general-guidelines/github-account-security/</guid>
+      <guid>https://www.prestashop-project.org/maintainers-guide/general-guidelines/github-account-security/</guid>
       <description>Github account security guidelines Maintainer GitHub accounts are granted extended rights on the PrestaShop organization.
 We require from maintainers to take the necessary steps to make sure this account is protected. This means, but not only:
  enable 2FA on GitHub use a safe and strong password be very careful about GitHub tokens granting account accesses  </description>
@@ -198,20 +208,20 @@ We require from maintainers to take the necessary steps to make sure this accoun
     
     <item>
       <title>How issues are sorted</title>
-      <link>https://www.mathieu-ferment.com/get-involved/report-issues/how-issues-are-sorted/</link>
+      <link>https://www.prestashop-project.org/get-involved/report-issues/how-issues-are-sorted/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/get-involved/report-issues/how-issues-are-sorted/</guid>
+      <guid>https://www.prestashop-project.org/get-involved/report-issues/how-issues-are-sorted/</guid>
       <description>How issues are sorted What happens to the issue you have reported PrestaShop Quality Assurance team (aka QA) uses a transparent definition for the criteria used to qualify issues&#39; severity, and how they should be applied through labels on GitHub issues.
 Please note that severity is to be distinguished from priority. Indeed, severity is used to measure the negative impact that a bug has on a system, a feature, a component or on the project development.</description>
     </item>
     
     <item>
       <title>How to contribute to UI tests</title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/processes/contribute-ui-tests/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/processes/contribute-ui-tests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/processes/contribute-ui-tests/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/processes/contribute-ui-tests/</guid>
       <description>How to contribute to UI tests Introduction Branches The first question to ask when making a contribution is &amp;ldquo;Which branch should I target?&amp;rdquo;.
 The rules are as follows:
  The development branch for UI testing is the current development branch. The branch changes as soon as the final release is out.  Differences between scenarios &amp;amp; tests Scenarios are the base of UI Tests. They are available on the PrestaShop Tests Documentation.</description>
@@ -219,10 +229,10 @@ The rules are as follows:
     
     <item>
       <title>How to create merge Pull Requests active branches</title>
-      <link>https://www.mathieu-ferment.com/maintainers-guide/processes/creating-merge-pull-requests/</link>
+      <link>https://www.prestashop-project.org/maintainers-guide/processes/creating-merge-pull-requests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/maintainers-guide/processes/creating-merge-pull-requests/</guid>
+      <guid>https://www.prestashop-project.org/maintainers-guide/processes/creating-merge-pull-requests/</guid>
       <description>Creating merge Pull Requests for all active branches What it is We need to progress on the next minor/major version and the maintained patch version.
 Merge Pull Request Here is the explanation of how you should create your merge pull request (from the 1.7.8.x to 8.0.x branch in this example):
  Clone the repository locally You’ll need to checkout/create branches for both your source branch and your target branch, or update them if you already have them locally  git checkout -b 1.</description>
@@ -230,10 +240,10 @@ Merge Pull Request Here is the explanation of how you should create your merge p
     
     <item>
       <title>How to Manage a release</title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/processes/release-manager/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/processes/release-manager/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/processes/release-manager/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/processes/release-manager/</guid>
       <description>How to create a Test Plan / Release Plan When a new release is made by the developers, a Test Plan and a Release Plan must be created on the QA side.
 Although these tickets are currently created on an internal company Jira, the purpose of this documentation is to explain what information is needed to prepare the release, and how to obtain it, before carrying out a release.
 1. Know the release The first thing to do is to find out about the release you&amp;rsquo;re going to test.</description>
@@ -241,10 +251,10 @@ Although these tickets are currently created on an internal company Jira, the pu
     
     <item>
       <title>How to manage Issues</title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/processes/issue-management/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/processes/issue-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/processes/issue-management/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/processes/issue-management/</guid>
       <description>How to manage Issues This document details the processes in place for the position of &amp;ldquo;Issues Manager&amp;rdquo;, a rotating position within the QA community members.
 The Issue Manager job Your job is to qualify issues submitted to the GitHub project. Good issues help us discover bugs and provide ideas to improve PrestaShop and the native modules. These are the three questions you must ask yourself:
  Is the issue valid? The issue must be a bug report.</description>
@@ -252,10 +262,10 @@ The Issue Manager job Your job is to qualify issues submitted to the GitHub p
     
     <item>
       <title>How to release a native module</title>
-      <link>https://www.mathieu-ferment.com/maintainers-guide/processes/release/native-module/</link>
+      <link>https://www.prestashop-project.org/maintainers-guide/processes/release/native-module/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/maintainers-guide/processes/release/native-module/</guid>
+      <guid>https://www.prestashop-project.org/maintainers-guide/processes/release/native-module/</guid>
       <description>Release a new version of a native PrestaShop module Some modules are embedded within PrestaShop ZIP archives and loaded through Composer package manager. They consequently are listed in the composer.json of the Core project.
 This is what we call &amp;ldquo;native PrestaShop modules&amp;rdquo;. The source code of these modules is hosted on GitHub.
 This page explains what is needed to release these modules.
@@ -264,10 +274,10 @@ Requirements Mandatory requirements The module should be valid which means:</des
     
     <item>
       <title>How to release a new AutoUpgrade version</title>
-      <link>https://www.mathieu-ferment.com/maintainers-guide/processes/release/autoupgrade/</link>
+      <link>https://www.prestashop-project.org/maintainers-guide/processes/release/autoupgrade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/maintainers-guide/processes/release/autoupgrade/</guid>
+      <guid>https://www.prestashop-project.org/maintainers-guide/processes/release/autoupgrade/</guid>
       <description>Release a new version of AutoUpgrade module The AutoUpgrade module is released following the same process as the native modules.
 However, after the release has been published, a last step is necessary.
 Mark the new version as latest The AutoUpgrade module is able to detect whether a new version is available. If it detects a new version is available it will suggest to user to upgrade itself to the new higher version.</description>
@@ -275,29 +285,29 @@ Mark the new version as latest The AutoUpgrade module is able to detect whether 
     
     <item>
       <title>How to review and approve Pull Requests</title>
-      <link>https://www.mathieu-ferment.com/maintainers-guide/processes/reviewing-pull-requests/</link>
+      <link>https://www.prestashop-project.org/maintainers-guide/processes/reviewing-pull-requests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/maintainers-guide/processes/reviewing-pull-requests/</guid>
+      <guid>https://www.prestashop-project.org/maintainers-guide/processes/reviewing-pull-requests/</guid>
       <description>.content label { display: inline; border-radius: 2em; font-size: 80%; font-weight: bold; color: #000; padding: .3em .8em; white-space: nowrap} label[type=needs] { background-color: #FBCA00; } label[type=check] { background-color: #B9EC4F; } label[type=branch] { background-color: #6270E9; } label[type=type] { background-color: #D4C5F9; } label[type=category] {} label[type=bcbreak] { background-color: #FF7854; } label[type=keyfeature] { background-color: #FFB33A; } label[type=needsdoc] { background-color: #D93E0B; color: #fff; } label[type=needsupgrade] { background-color: #D93E0B; color: #fff; } label[type=needstheme] { background-color: #D93E0B; color: #fff; } label[type=wip] { background-color: #FF8800; } label[type=e2e] { background-color: #EDEDED; } label[type=migration] { background-color: #00E031; }  Reviewing and approving Pull Requests All contributions to the PrestaShop project are subject to review.</description>
     </item>
     
     <item>
       <title>How we work</title>
-      <link>https://www.mathieu-ferment.com/project-organization/how-we-work/</link>
+      <link>https://www.prestashop-project.org/project-organization/how-we-work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/how-we-work/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/how-we-work/</guid>
       <description>How we work The project&amp;rsquo;s leadership is organized around project councils: self-organized, lightweight groups whose mission is to facilitate decision-making. Each council has authority over a defined domain.
  Technical Council – decides on technical subjects, including architecture and implementation choices. Product Council – decides on product management subjects, including what features belong in the project, specifications, UI/UX guidelines, and wordings. Quality Council – decides on quality assurance subjects, including quality processes, verification of pull requests, and bug triage.</description>
     </item>
     
     <item>
       <title>License &amp; license compatibility</title>
-      <link>https://www.mathieu-ferment.com/maintainers-guide/general-guidelines/license/</link>
+      <link>https://www.prestashop-project.org/maintainers-guide/general-guidelines/license/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/maintainers-guide/general-guidelines/license/</guid>
+      <guid>https://www.prestashop-project.org/maintainers-guide/general-guidelines/license/</guid>
       <description>License &amp;amp; license compatibility In order to protect PrestaShop users from patent trolls, it&amp;rsquo;s important to make sure that all content included and distributed with PrestaShop is covered under homogeneous license terms.
 The PrestaShop Core software is released under the OSL 3.0 license. Therefore, all original work included in PrestaShop itself must be released under that license as well.
 PrestaShop&amp;rsquo;s Native Modules and the Classic theme are released under the AFL 3.</description>
@@ -305,10 +315,10 @@ PrestaShop&amp;rsquo;s Native Modules and the Classic theme are released under t
     
     <item>
       <title>Nightly Board</title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/tooling/nightly-board/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/tooling/nightly-board/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/tooling/nightly-board/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/tooling/nightly-board/</guid>
       <description>Nightly Board Goal The nightly board is the dashboard for Software Developers in Test. It is checked every morning in order to stabilize existing tests and escalate issues in the event of regressions detected on all supported branches.
 Schedule Every day at 01:00 AM
 Code Nightly tests are executed every day with this process:
@@ -317,10 +327,10 @@ Code Nightly tests are executed every day with this process:
     
     <item>
       <title>PrestHubot</title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/tooling/presthubot/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/tooling/presthubot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/tooling/presthubot/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/tooling/presthubot/</guid>
       <description>PrestHubot Goal Presthubot is the QA team&amp;rsquo;s Slack Notifier. It checks several rules and sends a report via Slack.
 Schedule Every week day at 06:45 AM
 Code You can find the workflow on Github.
@@ -331,10 +341,10 @@ QA Functional PR Stats for QA This returns the number of Pull Requests that are 
     
     <item>
       <title>Security policy</title>
-      <link>https://www.mathieu-ferment.com/security/security-policy/</link>
+      <link>https://www.prestashop-project.org/security/security-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/security/security-policy/</guid>
+      <guid>https://www.prestashop-project.org/security/security-policy/</guid>
       <description>Security Policy Obviously, PrestaShop project security is a critical matter. Project members are dedicated to keeping a high level of security in every aspect of the software.
 However a software without vulnerability does not exist, which is why there is a security report process. If you find a security issue, please follow it to responsibly disclose your findings.
 Reporting a Vulnerability Security issues can be reported by sending an email to security-core@prestashop.</description>
@@ -342,10 +352,10 @@ Reporting a Vulnerability Security issues can be reported by sending an email to
     
     <item>
       <title>Security release process</title>
-      <link>https://www.mathieu-ferment.com/security/security-release-process/</link>
+      <link>https://www.prestashop-project.org/security/security-release-process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/security/security-release-process/</guid>
+      <guid>https://www.prestashop-project.org/security/security-release-process/</guid>
       <description>Security release process Here is a short summary of the steps followed by the security team:
   Security issues are reported to security-core@prestashop.com or through the Bug Bounty Program.
   Security issues are assessed to identify their criticality level.
@@ -354,10 +364,10 @@ Reporting a Vulnerability Security issues can be reported by sending an email to
     
     <item>
       <title>Slack channels</title>
-      <link>https://www.mathieu-ferment.com/slack/channels/</link>
+      <link>https://www.prestashop-project.org/slack/channels/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/slack/channels/</guid>
+      <guid>https://www.prestashop-project.org/slack/channels/</guid>
       <description>Slack channels A Slack dedicated to the PrestaShop open source project is now available. Its purpose is to foster the development of the software and of its ecosystem. The current priority is to configure channels for development and product management purpose. Once done, it will be open more progressively to other needs, like community management, business, etc.
 More information about prestashop.slack.com
 Request a new channel Creating a new channel is reserved to the administrators.</description>
@@ -365,38 +375,38 @@ Request a new channel Creating a new channel is reserved to the administrators.<
     
     <item>
       <title>Software Developer in Test</title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/rules/software-developer-in-test/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/rules/software-developer-in-test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/rules/software-developer-in-test/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/rules/software-developer-in-test/</guid>
       <description>Software Developer in Test Scope  Keep green the nightly Create issues when the nightly become red and it’s not false positives Keep updated dependencies for UI Tests Projects to maintain  UI Tests on Core &amp;amp; Modules Test Environment (Docker image, at the moment) ga.tests.ui.pr tests-scenarios    How to become a Committer ? Prerequisites  The contributor follows the project&amp;rsquo;s Code Of Conduct The contributor has contributed to the Software Developer in Test scope The contributor has reviewed multiples PRs in the Software Developer in Test scope The contributor want to participate the involvement of the quality of the project  Process  Open an issue at the open-source repository to apply Reflection period  Quality Council members can ask questions to contributors The contributor has done peer testing with one or more Quality Council members   Voting period  Rules inherit from the council    How to become a Maintainer ?</description>
     </item>
     
     <item>
       <title>Software Tester</title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/rules/software-tester/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/rules/software-tester/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/rules/software-tester/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/rules/software-tester/</guid>
       <description>Software Tester Scope How to become a Committer ? Prerequisites  The contributor follows the project&amp;rsquo;s Code Of Conduct The contributor knows Prestashop software The contributor knows how to correctly install a shop and a module The contributor knows the difference between a bug and a feature The contributor knows Git commands and understands how versioning works The contributor has already contributed to the project (via PR/issues/release) The contributor is able to follow the stages of an issue The contributor is aware of testing The contributor is able to describe an issue The contributor has tested PRs (other than his/her own)  Process  Open an issue at the open-source repository to apply Reflection period  Quality Council members can ask questions to contributors The contributor has done peer testing with one or more Quality Council members   Voting period  Rules inherit from the council    How to become a Maintainer ?</description>
     </item>
     
     <item>
       <title>Test Scenarios</title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/tooling/test-scenarios/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/tooling/test-scenarios/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/tooling/test-scenarios/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/tooling/test-scenarios/</guid>
       <description>Test Scenarios Goal The Test Scenarios repository focuses on scenarios written by Software Testers (on a JIRA, not accessible to the public). Several tools have been developed:
  a tool for generating Markdown pages from XRay scenarios on JIRA a tool for synchronizing scenarios to be automated or in the process of being automated in issues a tool for updating a kanban based on the status of scenarios  Schedule  Every week day at 06:00 AM (for the generation of Markdown pages) Every week day at 07:00 AM (for the synchronization of scenarios in issues)  Code You can find workflows :</description>
     </item>
     
     <item>
       <title>Using the Vagrant virtual machine</title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/processes/test-pr-and-branches/vagrant/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/processes/test-pr-and-branches/vagrant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/processes/test-pr-and-branches/vagrant/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/processes/test-pr-and-branches/vagrant/</guid>
       <description>Using the Vagrant virtual machine We recommend using our virtual machine to quickly get a testing environment in place.
 Requirements This is what you need to run this project:
  Vagrant VirtualBox  If you&amp;rsquo;re using Windows, we recommend you to download Git bash and execute all commands under this shell.
@@ -405,19 +415,19 @@ What is installed  Debian 10 Buster Git Apache 2.4 Multiple PHP versions (7.1, 7
     
     <item>
       <title>What&#39;s New in PrestaShop 8.0</title>
-      <link>https://www.mathieu-ferment.com/releases/prestashop80/</link>
+      <link>https://www.prestashop-project.org/releases/prestashop80/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/releases/prestashop80/</guid>
+      <guid>https://www.prestashop-project.org/releases/prestashop80/</guid>
       <description>PrestaShop 8 is a major update that brings an updated Symfony 4.4 version, compatibility with PHP 8.1, new password policy and session management features, support for WebP, and more.</description>
     </item>
     
     <item>
       <title>What&#39;s New in PrestaShop 8.1</title>
-      <link>https://www.mathieu-ferment.com/releases/prestashop81/</link>
+      <link>https://www.prestashop-project.org/releases/prestashop81/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/releases/prestashop81/</guid>
+      <guid>https://www.prestashop-project.org/releases/prestashop81/</guid>
       <description>PrestaShop 8.1 is a minor upgrade, with major improvements. This new release brings along many time-saving features and more.</description>
     </item>
     

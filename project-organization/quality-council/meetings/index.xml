@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meetings on PrestaShop Project - Open Source e-Commerce platform</title>
-    <link>https://www.mathieu-ferment.com/project-organization/quality-council/meetings/</link>
+    <link>https://www.prestashop-project.org/project-organization/quality-council/meetings/</link>
     <description>Recent content in Meetings on PrestaShop Project - Open Source e-Commerce platform</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://www.mathieu-ferment.com/project-organization/quality-council/meetings/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.prestashop-project.org/project-organization/quality-council/meetings/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023-05-16</title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/meetings/2023-05-16-meeting/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-05-16-meeting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/meetings/2023-05-16-meeting/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-05-16-meeting/</guid>
       <description>2023-05-16 Presents  @Robin-Fischer-PS : Member of the Quality Council @boubkerbribri : Member of the Quality Council @AureRita @florine2623 @Progi1984  Report Like Pablo Borowicz said, each council can organize like it wants. So this is the goal of this meeting : define rules for the Quality Council.
 Members of the council There are 3 profiles which are members of the Quality Council:
  Issue Manager Software Developer in Test Software Tester  Each member can be:</description>
@@ -19,11 +19,22 @@ Members of the council There are 3 profiles which are members of the Quality Cou
     
     <item>
       <title>2023-07-10</title>
-      <link>https://www.mathieu-ferment.com/project-organization/quality-council/meetings/2023-07-10-meeting/</link>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-07-10-meeting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/project-organization/quality-council/meetings/2023-07-10-meeting/</guid>
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-07-10-meeting/</guid>
       <description>2023-07-10 Presents  Anis Zouari (@aniszr) Boubker Bribri (@boubkerbribri) : Member of the Quality Council Faten Mhiri (@MhiriFaten) : Member of the Quality Council Florine Hea (@florine2623) : Member of the Quality Council Franck Lefèvre (@Progi1984) Hibatallah Aouadni (@hibatallahAouadni) : Member of the Quality Council Ines Sallemi (@sallemiines) : Member of the Quality Council Nesrine Abdmouleh (@nesrineabdmouleh) : Member of the Quality Council Robin-Fischer-PS (@Robin-Fischer-PS) : Member of the Quality Council Stéphane Decisy (@SD1982)  Absents  Aurélien Rita (@AureRita) : Member of the Quality Council Hajer Elleuch (@djoelleuch) : Member of the Quality Council Hana Rebai (@HanaRebaiQA) : Member of the Quality Council Paul-Noël Cholot (@paulnoelcholot) : Member of the Quality Council  Report Rules about vote @Robin-Fischer-PS has called for changes to the Quality Council&amp;rsquo;s voting rules.</description>
+    </item>
+    
+    <item>
+      <title>2023-12-22</title>
+      <link>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-12-22-vote/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.prestashop-project.org/project-organization/quality-council/meetings/2023-12-22-vote/</guid>
+      <description>2023-12-22 A vote was held for accepting @Progi1984 as maintainer in Quality Council, following his request.
+Maintainers :
+ ✅ Aurélien Rita (@AureRita) ✅ Boubker Bribri (@boubkerbribri) Faten Mhiri (@MhiriFaten) ✅ Florine Hea (@florine2623) Hajer Elleuch (@djoelleuch) Hana Rebai (@HanaRebaiQA) ✅ Hibatallah Aouadni (@hibatallahAouadni) ✅ Ines Sallemi (@sallemiines) ✅ Nesrine Abdmouleh (@nesrineabdmouleh) ✅ Paul-Noël Cholot (@paulnoelcholot) ✅ Robin-Fischer-PS (@Robin-Fischer-PS)   With 8 votes, the request is accepted by the Quality Council : @Progi1984 is now maintainer in Quality Council.</description>
     </item>
     
   </channel>

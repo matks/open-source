@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PrestaShop Project&#39;s Slack Chat on PrestaShop Project - Open Source e-Commerce platform</title>
-    <link>https://www.mathieu-ferment.com/slack/</link>
+    <link>https://www.prestashop-project.org/slack/</link>
     <description>Recent content in PrestaShop Project&#39;s Slack Chat on PrestaShop Project - Open Source e-Commerce platform</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://www.mathieu-ferment.com/slack/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.prestashop-project.org/slack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://www.mathieu-ferment.com/slack/apps-and-integrationsapps-and-integrations/</link>
+      <link>https://www.prestashop-project.org/slack/apps-and-integrationsapps-and-integrations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/slack/apps-and-integrationsapps-and-integrations/</guid>
+      <guid>https://www.prestashop-project.org/slack/apps-and-integrationsapps-and-integrations/</guid>
       <description>List of apps and integrations used in Slack Productboard  Description: Productboard is a product management tool, used by the PrestaShop Core&amp;rsquo;s product team to gather feedback, organize and prioritize features and improvements to build, and to follow their development. These feedback are grouped together to create &amp;ldquo;features ideas&amp;rdquo; that you can see at http://feedback.prestashop.com/. The Productboard app connects this Slack to the PrestaShop&amp;rsquo;s Productboard.
 It allows the product managers to transform a Slack message (and its comments) into a feedback &amp;ldquo;note&amp;rdquo; on productboard.</description>
     </item>
     
     <item>
       <title>Slack channels</title>
-      <link>https://www.mathieu-ferment.com/slack/channels/</link>
+      <link>https://www.prestashop-project.org/slack/channels/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mathieu-ferment.com/slack/channels/</guid>
+      <guid>https://www.prestashop-project.org/slack/channels/</guid>
       <description>Slack channels A Slack dedicated to the PrestaShop open source project is now available. Its purpose is to foster the development of the software and of its ecosystem. The current priority is to configure channels for development and product management purpose. Once done, it will be open more progressively to other needs, like community management, business, etc.
 More information about prestashop.slack.com
 Request a new channel Creating a new channel is reserved to the administrators.</description>
