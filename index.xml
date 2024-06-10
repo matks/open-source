@@ -52,6 +52,17 @@ Ask a maintainer from the PrestaShop Company with administrative rights on the A
     </item>
     
     <item>
+      <title>Security patch releases</title>
+      <link>https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/security/</guid>
+      <description>Security patch releases Context In the past, we used to mix security fixes for major security issues and regular Pull Requests, but that made releasing new versions of PrestaShop harder. Today when there is a major security vulnerability reported, we fix it in a scoped security patch release which contains only the security fixes.
+Examples: PrestaShop 8.1.6 or PrestaShop 8.1.4
+For regular patch releases, we start from the content of the patch branch to create a new build.</description>
+    </item>
+    
+    <item>
       <title>How to become a committer</title>
       <link>https://www.prestashop-project.org/maintainers-guide/how-to-become-a-committer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -180,9 +191,8 @@ Maintainers :
       
       <guid>https://www.prestashop-project.org/security/bug-bounty/</guid>
       <description>Bug bounty A bug bounty for security flaws is hosted on YesWeHack platform.
-The program is currently paused. Please report security issues to security-core@prestashop.com instead. Visit the Bug Bounty page
-This bounty program covers code from the GitHub repository PrestaShop/PrestaShop and all PrestaShop modules defined in the composer.json file.
-Informations about qualifying and non-qualifying vulnerabilities can be read on the bug bounty page.</description>
+The program is currently paused. Please report security issues to security-core@prestashop.com instead. This email address allows to report security issues of the PrestaShop project, but it is not part of a bug bounty program. Visit the Bug Bounty page
+This bounty program covers code from the GitHub repository PrestaShop/PrestaShop and all PrestaShop modules defined in the composer.json file.</description>
     </item>
     
     <item>

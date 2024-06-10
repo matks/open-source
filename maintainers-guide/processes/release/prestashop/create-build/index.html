@@ -41,7 +41,7 @@ Before you go further, make sure to tick the &ldquo;Development&rdquo; box in th
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/create-build/" /><meta property="article:section" content="maintainers-guide" />
 
-<meta property="article:modified_time" content="2023-08-07T17:36:13+02:00" />
+<meta property="article:modified_time" content="2024-05-15T21:56:59+02:00" />
 
 
 
@@ -368,6 +368,9 @@ Before you go further, make sure to tick the &ldquo;Development&rdquo; box in th
 <li>Add the different private temporary repositories for each Security Advisory as remotes of your local git repository.</li>
 <li>Merge each one of those PRs into your working local branch.</li>
 </ul>
+
+<div class="notices warning" >If there are security PRs to be merged, they are fixing minor security issues. Otherwise, a security release would have been done instead.</div>
+
 <h2 id="4-update-the-changelog--contributors-list">4. Update the Changelog &amp; Contributors list</h2>
 <h3 id="extract-list-of-changes-and-contributors-using-the-changelog-tool">Extract list of changes and contributors using the changelog tool</h3>
 

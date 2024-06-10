@@ -3,10 +3,12 @@
 
 <head>
 	<meta charset="utf-8">
-<title>How to release a new PrestaShop version | PrestaShop Project - Open Source e-Commerce platform</title>
-<meta name="description" content=""/>
+<title>Security patch releases | PrestaShop Project - Open Source e-Commerce platform</title>
+<meta name="description" content="Security patch releases Context In the past, we used to mix security fixes for major security issues and regular Pull Requests, but that made releasing new versions of PrestaShop harder. Today when there is a major security vulnerability reported, we fix it in a scoped security patch release which contains only the security fixes.
+Examples: PrestaShop 8.1.6 or PrestaShop 8.1.4
+For regular patch releases, we start from the content of the patch branch to create a new build."/>
 
-<link rel="canonical" href="https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/" itemprop="url" />
+<link rel="canonical" href="https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/security/" itemprop="url" />
 
 
 
@@ -25,12 +27,18 @@
 
 
 <!-- Open Graph image and Twitter Card metadata -->
-<meta name="twitter:title" content="How to release a new PrestaShop version"/>
-<meta name="twitter:description" content=""/>
-<meta property="og:title" content="How to release a new PrestaShop version" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/" />
+<meta name="twitter:title" content="Security patch releases"/>
+<meta name="twitter:description" content="Security patch releases Context In the past, we used to mix security fixes for major security issues and regular Pull Requests, but that made releasing new versions of PrestaShop harder. Today when there is a major security vulnerability reported, we fix it in a scoped security patch release which contains only the security fixes.
+Examples: PrestaShop 8.1.6 or PrestaShop 8.1.4
+For regular patch releases, we start from the content of the patch branch to create a new build."/>
+<meta property="og:title" content="Security patch releases" />
+<meta property="og:description" content="Security patch releases Context In the past, we used to mix security fixes for major security issues and regular Pull Requests, but that made releasing new versions of PrestaShop harder. Today when there is a major security vulnerability reported, we fix it in a scoped security patch release which contains only the security fixes.
+Examples: PrestaShop 8.1.6 or PrestaShop 8.1.4
+For regular patch releases, we start from the content of the patch branch to create a new build." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/security/" /><meta property="article:section" content="maintainers-guide" />
+
+<meta property="article:modified_time" content="2024-05-16T09:23:50+02:00" />
 
 
 
@@ -223,7 +231,7 @@
 
 
 
-  
+
 <section class="section">
   <div class="container">
     <div class="row mx-xl-2">
@@ -232,6 +240,9 @@
   <ol class="breadcrumb">
     
     
+      
+      
+        
       
       
         
@@ -267,7 +278,12 @@
     
       
       
-        <li class="breadcrumb-item active" aria-current="page">Releasing a new PS version</li>
+        <li class="breadcrumb-item"><a href="/maintainers-guide/processes/release/prestashop/">Releasing a new PS version</a></li>
+      
+    
+      
+      
+        <li class="breadcrumb-item active" aria-current="page">Security patch releases</li>
       
     
   </ol>
@@ -279,131 +295,39 @@
       
 
       <div class="col-xl ml-auto">
-        <div class="content"><h1 id="how-to-release-a-new-prestashop-version">How to release a new PrestaShop version</h1>
-<p>This section describes the release process, step by step. A PrestaShop version release requires all these steps to be completed.</p>
-<h2 id="prerequisites">Prerequisites</h2>
-<p>To perform a build, you will need the following:</p>
-<ul>
-<li><a href="https://git-scm.com/">Git</a>, so you can clone <a href="https://github.com/prestashop/prestashop">the project&rsquo;s Git repository</a> on your computer.</li>
-<li>The <a href="https://www.php.net/">PHP CLI</a> executable (within the <a href="https://devdocs.prestashop-project.org/8/basics/installation/system-requirements.md#php-requirements">compatible version range</a> of the PrestaShop version you will be building), so you can create a build.</li>
-<li>The <a href="https://getcomposer.org/">Composer</a> executable, to fetch PHP dependencies.</li>
-<li>The <a href="https://nodejs.org/">NodeJs CLI</a> executable (within the <a href="https://devdocs.prestashop-project.org/8/development/compile-assets.md#requirements">compatible version range</a>) and NPM, to compile assets.</li>
-</ul>
-
-<div class="notices note" >Some of steps will require special tools or access rights which are currently not accessible for maintainers outside the PrestaShop Company. A notice indicates when this is the case.</div>
-
-<h2 id="different-types-of-releases">Different types of releases</h2>
-<p>We currently have 4 kind of new releases for PrestaShop:</p>
-<ul>
-<li>security patch releases</li>
-<li>regular patch releases</li>
-<li>minor releases</li>
-<li>major releases</li>
-</ul>
-<p>Security patch releases contain security fixes for major security issues. Please read <a href="/maintainers-guide/processes/release/prestashop/security/">about them</a>.</p>
-<h2 id="process-overview">Process overview</h2>
-<ol>
-<li>
-<p><strong><a href="/maintainers-guide/processes/release/prestashop/preliminary-tasks/">Perform preliminary tasks</a></strong>: (click to see the full step)</p>
-<p>Short summary:</p>
+        <div class="content"><h1 id="security-patch-releases">Security patch releases</h1>
+<h2 id="context">Context</h2>
+<p>In the past, we used to mix security fixes for major security issues and regular Pull Requests, but that made releasing new versions of PrestaShop harder. Today when there is a major security vulnerability reported, we fix it in a scoped security patch release which contains only the security fixes.</p>
+<p>Examples: <a href="https://github.com/PrestaShop/PrestaShop/compare/8.1.5...8.1.6">PrestaShop 8.1.6</a> or <a href="https://github.com/PrestaShop/PrestaShop/compare/8.1.3...8.1.4">PrestaShop 8.1.4</a></p>
+<p>For regular patch releases, we start from the content of the patch branch to create a new build. For example for 8.1.x patch releases, when we decide to release a new version, we fetch the current state of 8.1.x branch.</p>
+<p>For security patch releases instead, we fetch the latest stable version of the software. Meaning: when we decided to release the security release PrestaShop 8.1.6, we did not fetch the current state of 8.1.x branch, we fetched the 8.1.5 tag and worked from that instead.</p>
+<p>By only bundling the changes to fix the security issue and nothing else in a release, we create a lightweight patch, easy to build, test, deploy, and easy for users to apply or upgrade.</p>
+<h2 id="process-changes">Process changes</h2>
+<p>The first part of the release process, <a href="/maintainers-guide/processes/release/prestashop/preliminary-tasks/">&ldquo;Perform preliminary tasks&rdquo;</a> is then changed:</p>
 <ul>
 <li>
-<p><strong>Set up the new version on the PrestaShop Addons Marketplace and update native modules' compatibility.</strong><br>
-<em>To allow the PrestaShop Addons Marketplace and its API to serve modules compatible with this new PrestaShop version.</em></p>
+<p><strong>Fetch the last released git tag and create a branch from it.</strong></p>
 </li>
 <li>
-<p><strong>Update the version number in the Core.</strong></p>
+<p><strong>Set up the new version on the PrestaShop Addons Marketplace and update native modules' compatibility.</strong></p>
 </li>
 <li>
-<p><strong>Make sure the default translation catalogue has been updated and pushed to Crowdin.</strong><br>
-<em>To make any new wordings translatable.</em></p>
-</li>
-<li>
-<p><strong>Lock the theme version.</strong></p>
-</li>
-<li>
-<p><strong>Make sure to trigger the release of the Upgrade module if necessary.</strong></p>
-</li>
-<li>
-<p><strong>Perform manual verifications.</strong><br>
-<em>To make sure that the project is ready to be built.</em></p>
+<p><strong>Update the version number in the created branch.</strong></p>
 </li>
 </ul>
-</li>
-<li>
-<p><strong><a href="/maintainers-guide/processes/release/prestashop/create-build/">Create a new build</a></strong>: (click to see the full step)</p>
-<p>Short summary:</p>
+<p>The rest of the process can be applied without changes.</p>
+<p>The built ZIP should only contain:</p>
 <ul>
-<li>
-<p><strong>Merge security PRs locally.</strong><br>
-<em>Any security PRs must be merged on a local branch before making them public.</em></p>
-</li>
-<li>
-<p><strong>Update the Changelog and Contributors list.</strong><br>
-<em>These files must be included in the build.</em></p>
-</li>
-<li>
-<p><strong>Push your work into a build branch.</strong><br>
-<em>Allows the base branch to continue receiving merges while your build is being validated.</em></p>
-</li>
-<li>
-<p><strong>Build and store the zip archive.</strong><br>
-<em>The ZIP archive contains the software (including third party dependencies) and compiled assets (Javascript and CSS), but not the development sources, dev dependencies &amp; tests.</em></p>
-</li>
-<li>
-<p><strong>Deliver to QA team.</strong></p>
-</li>
+<li>the security fixes</li>
+<li>the version number change</li>
+<li>the Changelog</li>
 </ul>
-</li>
-<li>
-<p><strong><a href="/maintainers-guide/processes/release/prestashop/release-publicly/">Release the version publicly</a></strong>: (click to see the full step)</p>
-<p>Short summary:</p>
-<ul>
-<li>
-<p><strong>Merge security PRs on GitHub.</strong><br>
-<em>And publish the security advisories.</em></p>
-</li>
-<li>
-<p><strong>Merge the updated Changelog and Contributors list on GitHub.</strong></p>
-</li>
-<li>
-<p><strong>Tag the version using Git and publish the release on GitHub.</strong></p>
-</li>
-<li>
-<p><strong>Communicate.</strong></p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong><a href="/maintainers-guide/processes/release/prestashop/final-steps/">Final steps</a></strong>: (click to see the full step)</p>
-<p>Short summary:</p>
-<ul>
-<li>
-<p><strong>Update API stream for 1-click upgrade.</strong><br>
-<em>So that the 1-Click Upgrade (autoupgrade) module becomes aware of the new release.</em></p>
-</li>
-<li>
-<p><strong>Create Docker images for the new version.</strong></p>
-</li>
-<li>
-<p><strong>Go through the checklist.</strong><br>
-<em>To make sure everything went all right.</em></p>
-</li>
-<li>
-<p><strong>Store the ZIP archive.</strong><br>
-<em>To keep track of all published versions.</em></p>
-</li>
-<li>
-<p><strong>Improve the process.</strong></p>
-</li>
-</ul>
-</li>
-</ol>
 </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
 
