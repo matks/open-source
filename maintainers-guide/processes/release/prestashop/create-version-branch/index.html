@@ -3,12 +3,11 @@
 
 <head>
 	<meta charset="utf-8">
-<title>People &amp; roles | PrestaShop Project - Open Source e-Commerce platform</title>
-<meta name="description" content="People and roles in the project The project is organized by councils that have authority over the different domains.
-To learn more about the project&rsquo;s organization, read How we work.
-Leadership Council The Leadership Council is in charge of providing structure and a general direction for the project. To that end, it oversees the other Councils and has final authority over them and their decisions, including the right to appoint and remove leads."/>
+<title>Create a new version branch | PrestaShop Project - Open Source e-Commerce platform</title>
+<meta name="description" content="Create a new branch for a new major/minor version. 1) Create the new branch and push it to the main repo Create the branch on you local git and push it to the main repository. You will need to push it to the main repository and not to your fork.
+2) Open PRs based on the new branch and modify those files: To create the new branch, we need to update several repositories to complete the necessary work."/>
 
-<link rel="canonical" href="https://www.prestashop-project.org/project-organization/people-and-roles/" itemprop="url" />
+<link rel="canonical" href="https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/create-version-branch/" itemprop="url" />
 
 
 
@@ -27,18 +26,16 @@ Leadership Council The Leadership Council is in charge of providing structure an
 
 
 <!-- Open Graph image and Twitter Card metadata -->
-<meta name="twitter:title" content="People &amp; roles"/>
-<meta name="twitter:description" content="People and roles in the project The project is organized by councils that have authority over the different domains.
-To learn more about the project&rsquo;s organization, read How we work.
-Leadership Council The Leadership Council is in charge of providing structure and a general direction for the project. To that end, it oversees the other Councils and has final authority over them and their decisions, including the right to appoint and remove leads."/>
-<meta property="og:title" content="People &amp; roles" />
-<meta property="og:description" content="People and roles in the project The project is organized by councils that have authority over the different domains.
-To learn more about the project&rsquo;s organization, read How we work.
-Leadership Council The Leadership Council is in charge of providing structure and a general direction for the project. To that end, it oversees the other Councils and has final authority over them and their decisions, including the right to appoint and remove leads." />
+<meta name="twitter:title" content="Create a new version branch"/>
+<meta name="twitter:description" content="Create a new branch for a new major/minor version. 1) Create the new branch and push it to the main repo Create the branch on you local git and push it to the main repository. You will need to push it to the main repository and not to your fork.
+2) Open PRs based on the new branch and modify those files: To create the new branch, we need to update several repositories to complete the necessary work."/>
+<meta property="og:title" content="Create a new version branch" />
+<meta property="og:description" content="Create a new branch for a new major/minor version. 1) Create the new branch and push it to the main repo Create the branch on you local git and push it to the main repository. You will need to push it to the main repository and not to your fork.
+2) Open PRs based on the new branch and modify those files: To create the new branch, we need to update several repositories to complete the necessary work." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.prestashop-project.org/project-organization/people-and-roles/" /><meta property="article:section" content="project-organization" />
+<meta property="og:url" content="https://www.prestashop-project.org/maintainers-guide/processes/release/prestashop/create-version-branch/" /><meta property="article:section" content="maintainers-guide" />
 
-<meta property="article:modified_time" content="2024-10-28T10:04:36+01:00" />
+<meta property="article:modified_time" content="2024-10-23T11:38:31+02:00" />
 
 
 
@@ -248,18 +245,42 @@ Leadership Council The Leadership Council is in charge of providing structure an
         
       
       
+        
+      
+      
+        
+      
+      
+        
+      
+      
       
         <li class="breadcrumb-item"><a href="/">Home</a></li>
       
     
       
       
-        <li class="breadcrumb-item"><a href="/project-organization/">Project organization</a></li>
+        <li class="breadcrumb-item"><a href="/maintainers-guide/">Maintainer&#39;s guide</a></li>
       
     
       
       
-        <li class="breadcrumb-item active" aria-current="page">People &amp; roles</li>
+        <li class="breadcrumb-item"><a href="/maintainers-guide/processes/">Processes</a></li>
+      
+    
+      
+      
+        <li class="breadcrumb-item"><a href="/maintainers-guide/processes/release/">How to release</a></li>
+      
+    
+      
+      
+        <li class="breadcrumb-item"><a href="/maintainers-guide/processes/release/prestashop/">Releasing a new PS version</a></li>
+      
+    
+      
+      
+        <li class="breadcrumb-item active" aria-current="page">Create a new version branch</li>
       
     
   </ol>
@@ -274,30 +295,14 @@ Leadership Council The Leadership Council is in charge of providing structure an
     <div class="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#people-and-roles-in-the-project">People and roles in the project</a>
+    <li><a href="#create-a-new-branch-for-a-new-majorminor-version">Create a new branch for a new major/minor version.</a>
       <ul>
-        <li><a href="#leadership-council">Leadership Council</a></li>
-        <li><a href="#product-council">Product Council</a>
+        <li>
           <ul>
-            <li><a href="#ux-designers">UX Designers</a></li>
-            <li><a href="#wording-manager">Wording Manager</a></li>
-            <li><a href="#alumni">Alumni</a></li>
+            <li><a href="#1-create-the-new-branch-and-push-it-to-the-main-repo">1) Create the new branch and push it to the main repo</a></li>
+            <li><a href="#2-open-prs-based-on-the-new-branch-and-modify-those-files">2) Open PRs based on the new branch and modify those files:</a></li>
           </ul>
         </li>
-        <li><a href="#technical-council">Technical Council</a>
-          <ul>
-            <li><a href="#committers">Committers</a></li>
-            <li><a href="#alumni-1">Alumni</a></li>
-          </ul>
-        </li>
-        <li><a href="#quality-council">Quality Council</a>
-          <ul>
-            <li><a href="#software-testers">Software Testers</a></li>
-            <li><a href="#software-developers-in-test">Software Developers in Test</a></li>
-            <li><a href="#alumni-2">Alumni</a></li>
-          </ul>
-        </li>
-        <li><a href="#dedicated-maintainers">Dedicated maintainers</a></li>
       </ul>
     </li>
   </ul>
@@ -307,133 +312,53 @@ Leadership Council The Leadership Council is in charge of providing structure an
 
 
       <div class="col-xl ml-auto">
-        <div class="content"><h1 id="people-and-roles-in-the-project">People and roles in the project</h1>
-<p>The project is organized by councils that have authority over the different domains.</p>
-<p>To learn more about the project&rsquo;s organization, read <a href="/project-organization/how-we-work/">How we work</a>.</p>
-<h2 id="leadership-council">Leadership Council</h2>
-<p>The Leadership Council is in charge of providing structure and a general direction for the project. To that end, it oversees the other Councils and has final authority over them and their decisions, including the right to appoint and remove leads.</p>
-<p>Current members:</p>
+        <div class="content"><h1 id="create-a-new-branch-for-a-new-majorminor-version">Create a new branch for a new major/minor version.</h1>
+<h3 id="1-create-the-new-branch-and-push-it-to-the-main-repo">1) Create the new branch and push it to the main repo</h3>
+<p>Create the branch on you local git and push it to the main repository. You will need to push it to the main repository and not to your fork.</p>
+<h3 id="2-open-prs-based-on-the-new-branch-and-modify-those-files">2) Open PRs based on the new branch and modify those files:</h3>
+<p>To create the new branch, we need to update several repositories to complete the necessary work.</p>
+<p>Below is a list of repositories with modified files for creating the <code>9.0.x</code> branch.</p>
+<p><code>PrestaShop/PrestaShop</code>:</p>
 <ul>
-<li>Amine Ouanes (<a href="https://github.com/amine-O">@amine-O</a>)</li>
-<li>Jonathan Lelièvre (<a href="https://github.com/jolelievre">@jolelievre</a>)</li>
-<li>Mathieu Ferment (<a href="https://github.com/matks">@matks</a>)</li>
-<li>Robin Fischer (<a href="https://github.com/Robin-Fischer-PS">@Robin-Fischer-PS</a>)</li>
+<li>.github/workflows/cron_js_routing.yml</li>
+<li>.github/workflows/cron_nightly_build.yml</li>
+<li>.github/workflows/cron_nightly_tests_9.0.x_mariadb.yml ( created )</li>
+<li>.github/workflows/cron_nightly_tests_9.0.x_mysql.yml ( created )</li>
+<li>.github/workflows/cron_nightly_tests_reports.yml</li>
+<li>.github/workflows/cron_nightly_tests_reusable.yml</li>
+<li>.github/workflows/cron_php_update_modules.yml</li>
+<li>.github/PULL_REQUEST_TEMPLATE.md</li>
 </ul>
-<h2 id="product-council">Product Council</h2>
-<p>The product council is in charge of product vision for the project, ensuring that the software meets the needs of its various users. It has authority over product management subjects, including what features belong in the project, specifications, UI/UX guidelines, and wordings.</p>
-<p>Current members:</p>
+<p><code>PrestaShop/test-scenarios</code>:</p>
 <ul>
-<li>Amine Ouanes (<a href="https://github.com/amine-O">@amine-O</a>) - <strong>Council Lead</strong></li>
-<li>Iliès Bahloul (<a href="https://github.com/ibahloul-ps">@ibahloul-ps</a>)</li>
-<li>Jean-François Viguier (<a href="https://github.com/jf-viguier">@jf-viguier</a>) - external contributor not affiliated with PrestaShop SA</li>
-<li>Krystian Podemski (<a href="https://github.com/kpodemski">@kpodemski</a>)</li>
+<li>.github/workflows/gh-pages.yml</li>
+<li>config.json</li>
 </ul>
-<h3 id="ux-designers">UX Designers</h3>
-<p>UX Designers make sure that interfaces follow the best practices in usability and design.</p>
-<p>Current UX designers:</p>
+<p><code>PrestaShop/presthubot</code>:</p>
 <ul>
-<li>Elodie Prokhoroff (<a href="https://github.com/ElodieOS">@ElodieOS</a>)</li>
-<li>Tristan Lehot (<a href="https://github.com/TristanLDD">@TristanLDD</a>)</li>
+<li>src/App/Command/SlackNotifierCommand.php</li>
 </ul>
-<h3 id="wording-manager">Wording Manager</h3>
-<p>Wording managers ensure that wordings are adequate, follow the project&rsquo;s tone of voice, and are categorized properly.</p>
-<p>Current wording managers:</p>
+<p><code>PrestaShop/prestashop.github.io</code>: ( no PR needed this time )</p>
 <ul>
-<li>Julie Varisellaz (<a href="https://github.com/Julievrz">@Julievrz</a>)</li>
+<li>data/tags.yml (make sure the tag doesn&rsquo;t exists already)</li>
 </ul>
-<h3 id="alumni">Alumni</h3>
-<p>Alumni are former Product council members who do not wish to participate actively in the project.</p>
-<p>Alumni:</p>
+<p><code>PrestaShop/kanbanbot</code>:</p>
 <ul>
-<li>Fabien Vallon (<a href="https://github.com/fabienvallon">@fabienvallon</a>)</li>
-<li>Mateus Shirlaw (<a href="https://github.com/MatShir">@MatShir</a>)</li>
+<li>src/PullRequest/Domain/Aggregate/PullRequest/PullRequest.php</li>
+<li>src/PullRequest/Domain/Aggregate/PullRequest/PullRequestDescription.php</li>
+<li>tests/Shared/Infrastructure/Provider/TranslationsCatalogProviderTest.php</li>
+<li>tests/PullRequest/Application/CommandHandler/CheckTableDescriptionCommandHandlerTest.php</li>
 </ul>
-<h2 id="technical-council">Technical Council</h2>
-<p>The technical council provides the technical vision for the whole project, reviewing and merging code contributions, while ensuring that the software is developed according to the product vision. It decides on technical subjects, including architecture and implementation choices.</p>
-<p>Current members:</p>
+<p>The QA Automation Team should update the following repositories:
+<code>PrestaShop/ga.tests.ui.pr</code>:</p>
 <ul>
-<li>Jonathan Lelièvre (<a href="https://github.com/jolelievre">@jolelievre</a>) - <strong>Council Lead</strong></li>
-<li>Krystian Podemski (<a href="https://github.com/kpodemski">@kpodemski</a>)</li>
-<li>Mathieu Ferment (<a href="https://github.com/matks">@matks</a>)</li>
-<li>Matthieu Rolland (<a href="https://github.com/matthieu-rolland">@matthieu-rolland</a>)</li>
-<li>Pablo Borowicz (<a href="https://github.com/eternoendless">@eternoendless</a>)</li>
-<li>Thomas Nabord (<a href="https://github.com/Quetzacoalt91">@Quetzacoalt91</a>)</li>
-</ul>
-<h3 id="committers">Committers</h3>
-<p>Committers can review and merge code contributions. They summon the technical council when important decisions need to be made.</p>
-<p>Current committers:</p>
-<ul>
-<li>Alexis Guyomar (<a href="https://github.com/ga-devfront">@ga-devfront</a>)</li>
-<li>Boris Hermans (<a href="https://github.com/boherm">@boherm</a>)</li>
-<li>Clément Désiles (<a href="https://github.com/jokesterfr">@jokesterfr</a>)</li>
-<li>Dominik Shaim Ulrich (<a href="https://github.com/ShaiMagal">@ShaiMagal</a>)</li>
-<li>Fabien Papet (<a href="https://github.com/FabienPapet">@FabienPapet</a>)</li>
-<li>Leemy Pakvn (<a href="https://github.com/leemyongpakva">@leemyongpakva</a>)</li>
-<li>Matthias Goudjil (<a href="https://github.com/mattgoud">@mattgoud</a>)</li>
-<li>Morgan Pichat (<a href="https://github.com/M0rgan01">@M0rgan01</a>)</li>
-<li>Nicolas Lœuillet (<a href="https://github.com/nicosomb">@nicosomb</a>)</li>
-<li>Pululu Kinanga André (<a href="https://github.com/PululuK">@PululuK</a>)</li>
-<li>Thibault Blivet (<a href="https://github.com/tblivet">@tblivet</a>)</li>
-<li>Thomas Leone (<a href="https://github.com/tleon">@tleon</a>)</li>
-<li>Tomasz Zając (<a href="https://github.com/SharakPL">@SharakPL</a>)</li>
-</ul>
-<h3 id="alumni-1">Alumni</h3>
-<p>Alumni are former technical council members or committers who do not wish to participate actively in the project. They can still review and merge code contributions and their advice is always welcomed.</p>
-<p>Alumni:</p>
-<ul>
-<li>Antonin Clauzier (<a href="https://github.com/0x346e3730">@0x346e3730</a>)</li>
-<li>Julius Žukauskas (<a href="https://github.com/zuk3975">@zuk3975</a>)</li>
-<li>Mahmoud Parvazi (<a href="https://github.com/mparvazi">@mparvazi</a>)</li>
-<li>Maxime Flasquin (<a href="https://github.com/mflasquin">@mflasquin</a>)</li>
-<li>Marco Salvatore (<a href="https://github.com/marsaldev">@marsaldev</a>)</li>
-<li>Ibrahima Sow (<a href="https://github.com/sowbiba">@sowbiba</a>)</li>
-<li>Louis Authie (<a href="https://github.com/LouisAUTHIE">@LouisAUTHIE</a>)</li>
-<li>Salim Benouamer (<a href="https://github.com/lartist">@lartist</a>)</li>
-<li>Thomas Baccelli (<a href="https://github.com/atomiix">@atomiix</a>)</li>
-<li>Valentin Szczupak (<a href="https://github.com/NeOMakinG">@NeOMakinG</a>)</li>
-</ul>
-<h2 id="quality-council">Quality Council</h2>
-<p>The quality council provides the quality assurance vision for the project and has authority on related subjects, such as verification of pull requests, test automation strategy, bug triage process, and quality assessment.</p>
-<h3 id="software-testers">Software Testers</h3>
-<p>Software Testers make sure that the quality of the software improves over time, by verifying that code changes behave as expected. To do this, they extensively test Pull Requests, PrestaShop&rsquo;s releases and its built-in modules.</p>
-<p>Current Software Testers:</p>
-<ul>
-<li>Aurélien Rita (<a href="https://github.com/AureRita">@AureRita</a>)</li>
-<li>Florine Hea (<a href="https://github.com/florine2623">@florine2623</a>)</li>
-<li>Paul-Noël Cholot (<a href="https://github.com/paulnoelcholot">@paulnoelcholot</a>)</li>
-<li>Robin-Fischer-PS (<a href="https://github.com/Robin-Fischer-PS">@Robin-Fischer-PS</a>)</li>
-<li>Sarah Cavrot (<a href="https://github.com/sLorenzini">@sLorenzini</a>)</li>
-<li>Sarah Dib (<a href="https://github.com/sarahdib">@sarahdib</a>)</li>
-</ul>
-<h3 id="software-developers-in-test">Software Developers in Test</h3>
-<p>Software Developers in Test provide technical vision, review contribution and write automated tests, which help accelerate the testing process.</p>
-<p>Current Software Developers in Test:</p>
-<ul>
-<li>Maintainers:
-<ul>
-<li>Franck Lefèvre (<a href="https://github.com/Progi1984">@Progi1984</a>)</li>
-<li>Nesrine Abdmouleh (<a href="https://github.com/nesrineabdmouleh">@nesrineabdmouleh</a>)</li>
-</ul>
-</li>
-<li>Committers:
-<ul>
-<li>Chedly Farhani (<a href="https://github.com/cfarhani06">@cfarhani06</a>)</li>
-<li>Stéphane Decisy (<a href="https://github.com/SD1982">@SD1982</a>)</li>
-</ul>
-</li>
-</ul>
-<h3 id="alumni-2">Alumni</h3>
-<p>Alumni are former QA council members who do not wish to participate actively in the project.</p>
-<p>Alumni:</p>
-<ul>
-<li>Boubker Bribri (<a href="https://github.com/boubkerbribri">@boubkerbribri</a>)</li>
-<li>Ines Sallemi (<a href="https://github.com/sallemiines">@sallemiines</a>)</li>
-<li>Hibatallah Aouadni (<a href="https://github.com/hibatallahAouadni">@hibatallahAouadni</a>)</li>
-</ul>
-<h2 id="dedicated-maintainers">Dedicated maintainers</h2>
-<p>Some projects have dedicated maintainers who are responsible for them:</p>
-<ul>
-<li><a href="https://docs.prestashop-project.org/">User documentation</a>: Julie Varisellaz (<a href="https://github.com/Julievrz">@Julievrz</a>)</li>
+<li>.github/workflows/build-shop.yml</li>
+<li>.github/workflows/pr_test.yml</li>
+<li>.github/workflows/pr_test_one.yml</li>
+<li>.github/workflows/pr_security_test_one.yml</li>
+<li>.github/workflows/test-sanity.yml</li>
+<li>.github/workflows/test-with-prebuilt-shop.yml</li>
+<li>.github/workflows/pr_test_single_campaign.yml</li>
 </ul>
 </div>
       </div>
