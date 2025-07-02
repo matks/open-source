@@ -118,7 +118,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <a class="navbar-brand" href="https://www.prestashop-project.org/">
         
-        <img width="200px" class="img-fluid" src="/images/prestashop-logo.png" alt="PrestaShop Project - Open Source e-Commerce platform">
+        <img width="200px" class="img-fluid" src="/images/prestashop-logo.svg?v=2025" alt="PrestaShop Project - Open Source e-Commerce platform">
         
       </a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation" aria-label="menu">
@@ -149,7 +149,7 @@
               
               <a class="dropdown-item" href="https://github.com/PrestaShop/PrestaShop/releases" title="Latest Releases">Latest Releases</a>
               
-              <a class="dropdown-item" href="/releases/prestashop81/" title="What&#39;s new">What&#39;s new</a>
+              <a class="dropdown-item" href="/releases/prestashop90/" title="What&#39;s new">What&#39;s new</a>
               
             </div>
           </li>
@@ -308,10 +308,6 @@
 <p>Short summary:</p>
 <ul>
 <li>
-<p><strong>Set up the new version on the PrestaShop Addons Marketplace and update native modules' compatibility.</strong><br>
-<em>To allow the PrestaShop Addons Marketplace and its API to serve modules compatible with this new PrestaShop version.</em></p>
-</li>
-<li>
 <p><strong>Update the version number in the Core.</strong></p>
 </li>
 <li>
@@ -322,11 +318,15 @@
 <p><strong>Lock the theme version.</strong></p>
 </li>
 <li>
-<p><strong>Make sure to trigger the release of the Upgrade module if necessary.</strong></p>
+<p><strong>Release any necessary improvement on the Update Assistant module.</strong></p>
 </li>
 <li>
-<p><strong>Perform manual verifications.</strong><br>
+<p><strong>Perform manual verifications.</strong>
 <em>To make sure that the project is ready to be built.</em></p>
+</li>
+<li>
+<p><strong>Set up the new version on the PrestaShop Addons Marketplace and update native modules' compatibility.</strong><br>
+<em>To allow the PrestaShop Addons Marketplace and its API to serve modules compatible with this new PrestaShop version.</em></p>
 </li>
 </ul>
 </li>
@@ -367,10 +367,11 @@
 <p><strong>Merge the updated Changelog and Contributors list on GitHub.</strong></p>
 </li>
 <li>
-<p><strong>Tag the version using Git and publish the release on GitHub.</strong></p>
+<p><strong>Tag the version using Git. Do not push it just yet.</strong></p>
 </li>
 <li>
-<p><strong>Communicate.</strong></p>
+<p><strong>Communicate and push/publish the tag and the release on GitHub.</strong>
+<em>Make sure to link to the PrestaShop SA versions page from the GitHub release description to ease access to the latest built package of PrestaShop</em></p>
 </li>
 </ul>
 </li>
@@ -379,8 +380,8 @@
 <p>Short summary:</p>
 <ul>
 <li>
-<p><strong>Update API stream for 1-click upgrade.</strong><br>
-<em>So that the 1-Click Upgrade (autoupgrade) module becomes aware of the new release.</em></p>
+<p><strong>Update API stream for Update Assistant.</strong><br>
+<em>So that the Update Assistant (autoupgrade) module becomes aware of the new release.</em></p>
 </li>
 <li>
 <p><strong>Create Docker images for the new version.</strong></p>
@@ -418,7 +419,7 @@
       <div class="col-12 mt-2">
         <a class="d-block h3 mb-3" href="https://www.prestashop-project.org/">
           
-            <img width="200px" class="img-fluid" src="/images/prestashop-logo.png" alt="PrestaShop Project - Open Source e-Commerce platform">
+            <img width="200px" class="img-fluid" src="/images/prestashop-logo.svg?v=2025" alt="PrestaShop Project - Open Source e-Commerce platform">
           
         </a>
       </div>
